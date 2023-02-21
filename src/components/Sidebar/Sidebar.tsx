@@ -1,10 +1,15 @@
 import React from "react";
-import { SidebarContainer } from "./SidebarStyles";
+import { SidebarContainer, SideNav, SideNavItem } from "./SidebarStyles";
 
 const Sidebar = () => {
   return (
     <SidebarContainer>
-      <h2>Hello World</h2>
+      <SideNav>
+        <SideNavItem href="#about">About</SideNavItem>
+        <SideNavItem href="#services">Services</SideNavItem>
+        <SideNavItem href="#clients">Clients</SideNavItem>
+        <SideNavItem href="#contact">Contact</SideNavItem>
+      </SideNav>
     </SidebarContainer>
   );
 };
