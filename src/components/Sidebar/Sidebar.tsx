@@ -1,35 +1,35 @@
 import React from "react";
 import { FaHeart, FaHome, FaList, FaSearch } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 import {
   NavItemContent,
   NavLogo,
   SidebarContainer,
   SideNav,
-  SideNavItem,
 } from "../../styles/SidebarStyles";
 
 const Sidebar = () => {
   return (
     <SidebarContainer>
       <SideNav>
-        <SideNavItem href="#home">
+        <NavLink to={"/"}>
           <NavLogo>MeloPlay</NavLogo>
-        </SideNavItem>
-        <SideNavItem href="#home">
+        </NavLink>
+        <NavLink to={"/home"}>
           <FaHome /> <NavItemContent>Home</NavItemContent>
-        </SideNavItem>
-        <SideNavItem href="#search">
+        </NavLink>
+        <NavLink to={"/search"}>
           <FaSearch />
           <NavItemContent>Search</NavItemContent>
-        </SideNavItem>
-        <SideNavItem href="#favorite">
+        </NavLink>
+        <NavLink to={"/favorite"}>
           <FaHeart />
           <NavItemContent>Favorites</NavItemContent>
-        </SideNavItem>
-        <SideNavItem href="#playlist">
+        </NavLink>
+        <NavLink to={"/playlist"}>
           <FaList />
           <NavItemContent>Playlists</NavItemContent>
-        </SideNavItem>
+        </NavLink>
       </SideNav>
     </SidebarContainer>
   );
