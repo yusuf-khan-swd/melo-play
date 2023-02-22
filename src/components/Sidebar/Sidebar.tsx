@@ -1,6 +1,7 @@
 import React from "react";
 import { FaHeart, FaHome, FaList, FaSearch } from "react-icons/fa";
 import {
+  NavLogo,
   SidebarContainer,
   SideNav,
   SideNavItem,
@@ -10,6 +11,9 @@ const Sidebar = () => {
   return (
     <SidebarContainer>
       <SideNav>
+        <SideNavItem>
+          <NavLogo>MeloPlay</NavLogo>
+        </SideNavItem>
         <SideNavItem href="#about">
           <FaHome /> Home
         </SideNavItem>
