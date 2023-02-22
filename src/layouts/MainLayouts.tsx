@@ -1,13 +1,14 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import { SideNav } from "../styles/SidebarStyles";
+import Sidebar from "../components/Sidebar/Sidebar";
+import { HomeContainer } from "../styles/HomeStyles";
 
 const MainLayouts = () => {
   return (
-    <>
-      <SideNav />
+    <HomeContainer>
+      <Sidebar />
       <Outlet />
-    </>
+    </HomeContainer>
   );
 };
 
