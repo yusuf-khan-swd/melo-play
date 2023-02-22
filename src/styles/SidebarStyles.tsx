@@ -7,14 +7,7 @@ export const SidebarContainer = styled.div`
 
 export const SideNav = styled.div`
   height: 100%;
-  width: 230px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
   background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
   text-align: center;
 
   a {
