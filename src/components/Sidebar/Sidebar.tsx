@@ -12,21 +12,21 @@ const Sidebar = () => {
   return (
     <SidebarContainer>
       <SideNav>
-        <SideNavItem>
+        <SideNavItem href="#home">
           <NavLogo>MeloPlay</NavLogo>
         </SideNavItem>
-        <SideNavItem href="#about">
+        <SideNavItem href="#home">
           <FaHome /> <NavItemContent>Home</NavItemContent>
         </SideNavItem>
-        <SideNavItem href="#services">
+        <SideNavItem href="#search">
           <FaSearch />
           <NavItemContent>Search</NavItemContent>
         </SideNavItem>
-        <SideNavItem href="#clients">
+        <SideNavItem href="#favorite">
           <FaHeart />
           <NavItemContent>Favorites</NavItemContent>
         </SideNavItem>
-        <SideNavItem href="#contact">
+        <SideNavItem href="#playlist">
           <FaList />
           <NavItemContent>Playlists</NavItemContent>
         </SideNavItem>
