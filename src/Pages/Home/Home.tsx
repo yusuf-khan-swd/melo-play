@@ -1,5 +1,5 @@
 import React from "react";
-import MainBodySection from "../../components/MainContentSection/MainBodySection";
+import MainBodySection from "../../components/MainBodySection/MainBodySection";
 
 const Home = () => {
   return <MainBodySection />;
