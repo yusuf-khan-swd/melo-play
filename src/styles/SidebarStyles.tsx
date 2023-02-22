@@ -26,7 +26,7 @@ export const NavLogo = styled.p`
 export const SideNavItem = styled.a`
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: #818181;
   display: flex;
   align-items: center;
