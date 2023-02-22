@@ -4,6 +4,7 @@ export const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
+  background-color: #2e2c2c;
 `;
 
 export const ArrowContainer = styled.div``;
