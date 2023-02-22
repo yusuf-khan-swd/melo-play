@@ -35,3 +35,7 @@ export const SideNavItem = styled.a`
     color: #f1f1f1;
   }
 `;
+
+export const NavItemContent = styled.span`
+  margin: 0 0 0 6px;
+`;
