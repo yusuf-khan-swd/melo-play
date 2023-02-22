@@ -1,7 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import MainBodySection from "../../components/MainBodySection/MainBodySection";
 
 const Home = () => {
+  const [tracks, setTracks] = useState([]);
+
   useEffect(() => {
     const options = {
       method: "GET",
@@ -12,11 +14,11 @@ const Home = () => {
     };
 
     fetch(
-      "https://shazam.p.rapidapi.com/shazam-events/list?artistId=73406786&l=en-US&from=2022-12-31&limit=50&offset=0",
+      "https://shazam.p.rapidapi.com/songs/list-recommendations?key=484129036&locale=en-US",
       options
     )
       .then((response) => response.json())
-      .then((response) => console.log(response))
+      .then((data) => setTracks(data.tracks))
       .catch((err) => console.error(err));
   }, []);
 
