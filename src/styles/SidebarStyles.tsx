@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
-export const SidebarContainer = styled.div`
-  grid-column-start: 1;
-  grid-column-end: 3;
-`;
+export const SidebarContainer = styled.div``;
 
 export const SideNav = styled.div`
   height: 100%;
+  position: fixed;
+  width: 222px;
+  top: 0;
+  left: 0;
   background-color: #111;
   text-align: center;
 
