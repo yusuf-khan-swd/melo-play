@@ -22,19 +22,20 @@ const buttonStyle = styled.button`
   border-radius: 25px;
   border: none;
   font: 500 16px Poppins;
-`;
-
-export const Login = styled(buttonStyle)`
-  background-color: white;
 
   :hover {
     transform: scale(105%);
   }
 `;
 
+export const Login = styled(buttonStyle)`
+  background-color: white;
+`;
+
 export const SignUp = styled(buttonStyle)`
   background-color: transparent;
   color: #a7a7a7;
+  padding-right: 32px;
   :hover {
     color: white;
   }
