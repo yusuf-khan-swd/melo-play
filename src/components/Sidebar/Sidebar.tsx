@@ -1,14 +1,30 @@
 import React from "react";
-import { SidebarContainer, SideNav, SideNavItem } from "./SidebarStyles";
+import { FaHeart, FaHome, FaList, FaSearch } from "react-icons/fa";
+import {
+  SidebarContainer,
+  SideNav,
+  SideNavItem,
+} from "../../styles/SidebarStyles";
 
 const Sidebar = () => {
   return (
     <SidebarContainer>
       <SideNav>
-        <SideNavItem href="#about">About</SideNavItem>
-        <SideNavItem href="#services">Services</SideNavItem>
-        <SideNavItem href="#clients">Clients</SideNavItem>
-        <SideNavItem href="#contact">Contact</SideNavItem>
+        <SideNavItem href="#about">
+          <FaHome /> Home
+        </SideNavItem>
+        <SideNavItem href="#services">
+          <FaSearch />
+          Search
+        </SideNavItem>
+        <SideNavItem href="#clients">
+          <FaHeart />
+          Favorites
+        </SideNavItem>
+        <SideNavItem href="#contact">
+          <FaList />
+          Playlists
+        </SideNavItem>
       </SideNav>
     </SidebarContainer>
   );
