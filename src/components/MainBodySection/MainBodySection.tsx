@@ -34,7 +34,7 @@ const MainBodySection = () => {
     <MainBody>
       <TracksContainer>
         {tracks.map((track, index) => (
-          <TrackCard>
+          <TrackCard key={index}>
             <TrackImageContainer>
               <TrackImage
                 src={track?.trackMetadata?.displayImageUri}
@@ -44,6 +44,7 @@ const MainBodySection = () => {
             <TracksBody key={index}>
               <TrackTitle>{track.trackMetadata.trackName}</TrackTitle>
             </TracksBody>
+            {/* <audio src={track.trackMetadata.trackUri} controls></audio> */}
           </TrackCard>
         ))}
       </TracksContainer>
