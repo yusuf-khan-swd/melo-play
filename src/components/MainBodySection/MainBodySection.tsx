@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import { useQuery } from "@tanstack/react-query";
+import { Loader } from "../../styles/LoaderStyles";
 import { MainBody } from "../../styles/MainContentStyles";
 import {
   TrackCard,
@@ -8,25 +9,33 @@ import {
   TracksContainer,
   TrackTitle,
 } from "../../styles/TracksStyles";
-import TracksCard from "../TracksCard/TracksCard";
 
 const MainBodySection = () => {
-  const [tracks, setTracks] = useState([]);
+  const { isLoading, data: tracks } = useQuery({
+    queryKey: ["tracks"],
+    queryFn: async () => {
+      const options = {
+        method: "GET",
+        headers: {
+          "X-RapidAPI-Key":
+            "d4872295damsh670d100a2e2ac32p179cc4jsn11255d82ba59",
+          "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
+        },
+      };
 
-  useEffect(() => {
-    const options = {
-      method: "GET",
-      headers: {
-        "X-RapidAPI-Key": "d4872295damsh670d100a2e2ac32p179cc4jsn11255d82ba59",
-        "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
-      },
-    };
+      const res = await fetch(
+        "https://spotify81.p.rapidapi.com/top_200_tracks",
+        options
+      );
+      const data = await res.json();
 
-    fetch("https://spotify81.p.rapidapi.com/top_200_tracks", options)
-      .then((response) => response.json())
-      .then((response) => setTracks(response))
-      .catch((err) => console.error(err));
-  }, []);
+      return data;
+    },
+  });
+
+  if (isLoading) {
+    return <Loader />;
+  }
 
   console.log(tracks);
 
