@@ -12,7 +12,7 @@ export const TrackCard = styled.div`
 `;
 
 export const TrackImageContainer = styled.div`
-  max-width: 150px;
+  max-width: 180px;
 `;
 export const TrackImage = styled.img`
   width: 100%;
