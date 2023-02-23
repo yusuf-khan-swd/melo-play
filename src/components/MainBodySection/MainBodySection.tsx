@@ -1,5 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
-import { Loader } from "../../styles/LoaderStyles";
+import {
+  Spinner,
+  SpinnerBackground,
+  SpinnerScreenCenter,
+} from "../../styles/SpinnerStyles";
 import { MainBody } from "../../styles/MainContentStyles";
 import {
   TrackCard,
@@ -34,7 +38,13 @@ const MainBodySection = () => {
   });
 
   if (isLoading) {
-    return <Loader />;
+    return (
+      <SpinnerBackground>
+        <SpinnerScreenCenter>
+          <Spinner />
+        </SpinnerScreenCenter>
+      </SpinnerBackground>
+    );
   }
 
   console.log(tracks);

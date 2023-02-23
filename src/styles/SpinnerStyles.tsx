@@ -1,20 +1,18 @@
 import styled from "styled-components";
 
-export const SpinnerScreenCenter = styled.div`
-  height: 50vh;
-  border: 1px solid blue;
-  display: flex;
-  align-items: center;
-
-  /* justify-content: end; */
-  /* justify-content: center; */
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  */
+export const SpinnerBackground = styled.div`
+  background-color: #2e2c2c;
+  height: 100vh;
 `;
 
-export const Spinner = styled.div`
+export const SpinnerScreenCenter = styled.div`
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const Spinner = styled.span`
   width: 48px;
   height: 48px;
   border: 5px solid #fff;
