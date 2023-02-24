@@ -6,6 +6,7 @@ import {
 } from "../../styles/SpinnerStyles";
 import { MainBody } from "../../styles/MainContentStyles";
 import {
+  TrackAudio,
   TrackCard,
   TrackImage,
   TrackImageContainer,
@@ -13,6 +14,8 @@ import {
   TracksContainer,
   TrackTitle,
 } from "../../styles/TracksStyles";
+
+import horse from "../../assets/horse.mp3";
 
 const MainBodySection = () => {
   const { isLoading, data: tracks } = useQuery({
@@ -68,8 +71,8 @@ const MainBodySection = () => {
               </TrackImageContainer>
               <TracksBody key={index}>
                 <TrackTitle>{track.trackMetadata.trackName}</TrackTitle>
+                <TrackAudio src={horse} controls />
               </TracksBody>
-              {/* <audio src={track.trackMetadata.trackUri} controls></audio> */}
             </TrackCard>
           )
         )}
