@@ -3,11 +3,10 @@ import { SearchContainer } from "../../styles/SerchStyles";
 
 const Search = () => {
   const [searchResult, setSearchResult] = useState();
+  const [searchingKey, setSearchingKey] = useState("");
 
-  const getFormData = (event) => {
+  const getSearchResult = (event: React.FormEvent) => {
     event.preventDefault();
-
-    const search = event.target.search.value;
 
     const options = {
       method: "GET",
@@ -17,7 +16,7 @@ const Search = () => {
       },
     };
     fetch(
-      `https://spotify81.p.rapidapi.com/search?q=${search}&type=multi&offset=0&limit=10&numberOfTopResults=5`,
+      `https://spotify81.p.rapidapi.com/search?q=${searchingKey}&type=multi&offset=0&limit=10&numberOfTopResults=5`,
       options
     )
       .then((response) => response.json())
@@ -36,8 +35,13 @@ const Search = () => {
       </h2>
       <h1>Search 2</h1>
 
-      <form onSubmit={getFormData}>
-        <input type="text" name="search" id="" />
+      <form onSubmit={getSearchResult}>
+        <input
+          onChange={(e) => setSearchingKey(e.target.value)}
+          type="text"
+          name="search"
+          id=""
+        />
         <button type="submit">Submit</button>
       </form>
     </SearchContainer>
