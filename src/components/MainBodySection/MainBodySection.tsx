@@ -52,20 +52,27 @@ const MainBodySection = () => {
   return (
     <MainBody>
       <TracksContainer>
-        {tracks.map((track, index) => (
-          <TrackCard key={index}>
-            <TrackImageContainer>
-              <TrackImage
-                src={track?.trackMetadata?.displayImageUri}
-                alt="cover-art"
-              />
-            </TrackImageContainer>
-            <TracksBody key={index}>
-              <TrackTitle>{track.trackMetadata.trackName}</TrackTitle>
-            </TracksBody>
-            {/* <audio src={track.trackMetadata.trackUri} controls></audio> */}
-          </TrackCard>
-        ))}
+        {tracks.map(
+          (
+            track: {
+              trackMetadata: { displayImageUri: string; trackName: string };
+            },
+            index: number
+          ) => (
+            <TrackCard key={index}>
+              <TrackImageContainer>
+                <TrackImage
+                  src={track.trackMetadata.displayImageUri}
+                  alt="cover-art"
+                />
+              </TrackImageContainer>
+              <TracksBody key={index}>
+                <TrackTitle>{track.trackMetadata.trackName}</TrackTitle>
+              </TracksBody>
+              {/* <audio src={track.trackMetadata.trackUri} controls></audio> */}
+            </TrackCard>
+          )
+        )}
       </TracksContainer>
     </MainBody>
   );
