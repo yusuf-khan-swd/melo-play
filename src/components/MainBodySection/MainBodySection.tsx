@@ -74,7 +74,7 @@ const MainBodySection = () => {
                     alt="cover-art"
                   />
                 </TrackImageContainer>
-                <TracksBody key={index}>
+                <TracksBody>
                   <TrackTitle>{track.trackMetadata.trackName}</TrackTitle>
                   <TrackAudio src={horse} controls />
                 </TracksBody>
