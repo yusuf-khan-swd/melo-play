@@ -21,7 +21,7 @@ export const TracksContainer = styled.div`
 
 export const TrackCard = styled.div`
   max-width: 220px;
-  background-color: #928989;
+  background-color: #b4a6a61f;
   padding: 10px;
   border-radius: 8px;
 `;
