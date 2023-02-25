@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import { AlbumsContainer } from "../../styles/AlbumsStyles";
+import {
+  AlbumBody,
+  AlbumCard,
+  AlbumImage,
+  AlbumImageContainer,
+  AlbumsContainer,
+  AlbumTitle,
+} from "../../styles/AlbumsStyles";
 import { SearchContainer } from "../../styles/SerchStyles";
 
 const Search = () => {
@@ -59,10 +66,17 @@ const Search = () => {
                 },
                 index: number
               ) => (
-                <div key={index}>
-                  <p>{album?.data.name}</p>
-                  <img src={album?.data?.coverArt?.sources[0].url} alt="" />
-                </div>
+                <AlbumCard key={index}>
+                  <AlbumImageContainer>
+                    <AlbumImage
+                      src={album?.data?.coverArt?.sources[0].url}
+                      alt=""
+                    />
+                  </AlbumImageContainer>
+                  <AlbumBody>
+                    <AlbumTitle>{album?.data.name}</AlbumTitle>
+                  </AlbumBody>
+                </AlbumCard>
               )
             )}
           </AlbumsContainer>
