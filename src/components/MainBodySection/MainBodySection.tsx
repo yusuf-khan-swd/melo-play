@@ -4,7 +4,7 @@ import {
   SpinnerBackground,
   SpinnerScreenCenter,
 } from "../../styles/SpinnerStyles";
-import { MainBody } from "../../styles/MainContentStyles";
+import { DataIsMissing, MainBody } from "../../styles/MainContentStyles";
 import {
   TrackAudio,
   TrackCard,
@@ -40,6 +40,8 @@ const MainBodySection = () => {
     },
   });
 
+  console.log(tracks);
+
   if (isLoading) {
     return (
       <SpinnerBackground>
@@ -50,33 +52,37 @@ const MainBodySection = () => {
     );
   }
 
-  console.log(tracks);
+  console.log(tracks.length);
 
   return (
     <MainBody>
-      <TracksContainer>
-        {tracks.map(
-          (
-            track: {
-              trackMetadata: { displayImageUri: string; trackName: string };
-            },
-            index: number
-          ) => (
-            <TrackCard key={index}>
-              <TrackImageContainer>
-                <TrackImage
-                  src={track.trackMetadata.displayImageUri}
-                  alt="cover-art"
-                />
-              </TrackImageContainer>
-              <TracksBody key={index}>
-                <TrackTitle>{track.trackMetadata.trackName}</TrackTitle>
-                <TrackAudio src={horse} controls />
-              </TracksBody>
-            </TrackCard>
-          )
-        )}
-      </TracksContainer>
+      {!tracks.length ? (
+        <DataIsMissing>Data is Missing</DataIsMissing>
+      ) : (
+        <TracksContainer>
+          {tracks.map(
+            (
+              track: {
+                trackMetadata: { displayImageUri: string; trackName: string };
+              },
+              index: number
+            ) => (
+              <TrackCard key={index}>
+                <TrackImageContainer>
+                  <TrackImage
+                    src={track.trackMetadata.displayImageUri}
+                    alt="cover-art"
+                  />
+                </TrackImageContainer>
+                <TracksBody key={index}>
+                  <TrackTitle>{track.trackMetadata.trackName}</TrackTitle>
+                  <TrackAudio src={horse} controls />
+                </TracksBody>
+              </TrackCard>
+            )
+          )}
+        </TracksContainer>
+      )}
     </MainBody>
   );
 };

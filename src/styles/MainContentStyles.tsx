@@ -6,3 +6,7 @@ export const MainBody = styled.div`
   min-height: 100vh;
   padding-left: 20px;
 `;
+
+export const DataIsMissing = styled.h2`
+  color: white;
+`;
