@@ -12,6 +12,7 @@ export const SideNav = styled.div`
   text-align: center;
 
   a {
+    margin-bottom: 8px;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 18px;
@@ -31,5 +32,5 @@ export const NavLogo = styled.p`
 `;
 
 export const NavItemContent = styled.span`
-  margin: 0 0 0 6px;
+  margin: 0 0 0 8px;
 `;
