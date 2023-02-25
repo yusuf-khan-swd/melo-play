@@ -1,18 +1,48 @@
-import React, { Key, useState } from "react";
+import { useQuery } from "@tanstack/react-query";
+import React, { useState } from "react";
 import { AlbumsContainer } from "../../styles/AlbumsStyles";
 import { SearchContainer } from "../../styles/SerchStyles";
 
 const Search = () => {
+  const [searchQuery, setSearchQuery] = useState("");
   const [searchResult, setSearchResult] = useState({ albums: { items: [] } });
   const [albums, setAlbums] = useState([]);
-  const [searchQuery, setSearchQuery] = useState("");
+
+  const { data: searchResult2, isLoading } = useQuery({
+    queryKey: ["albums", "searchQuery"],
+    queryFn: async () => {
+      const options = {
+        method: "GET",
+        headers: {
+          "X-RapidAPI-Key":
+            "d4872295damsh670d100a2e2ac32p179cc4jsn11255d82ba59",
+          "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
+        },
+      };
+
+      const res = await fetch(
+        `https://spotify81.p.rapidapi.com/search?q=${searchQuery}&type=multi&offset=0&limit=50&numberOfTopResults=5`,
+        options
+      );
+
+      const data = await res.json();
+      console.log(data);
+      setAlbums(data.albums.items);
+      return data.albums.items;
+    },
+  });
+
+  if (isLoading) {
+    return <p style={{ marginLeft: "250px" }}>Loading</p>;
+  }
+
+  console.log(searchResult2);
 
   const getSearchResult = (event: React.FormEvent) => {
     if (!searchQuery.trim()) {
       return window.alert("Please type something");
     }
     event.preventDefault();
-
     const options = {
       method: "GET",
       headers: {
