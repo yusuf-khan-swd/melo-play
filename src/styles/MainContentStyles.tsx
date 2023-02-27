@@ -5,7 +5,6 @@ export const MainBody = styled.div`
   margin-left: 220px;
   min-height: 100vh;
   padding: 10px 0;
-  border-top: 1px solid grey;
 
   @media (max-width: 640px) {
     margin-left: 0;
