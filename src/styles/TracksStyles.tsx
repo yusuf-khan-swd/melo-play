@@ -26,6 +26,7 @@ export const TrackCard = styled.div`
   background-color: #b4a6a61f;
   padding: 10px;
   border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
 `;
 
 export const TrackImageContainer = styled.div``;
