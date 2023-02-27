@@ -7,7 +7,16 @@ import {
   AlbumsContainer,
   AlbumTitle,
 } from "../../styles/AlbumsStyles";
-import { SearchContainer } from "../../styles/SerchStyles";
+import {
+  SearchContainer,
+  SearchForm,
+  SearchGroup,
+  SearchIcon,
+  SearchInput,
+  SubmitButton,
+} from "../../styles/SearchStyles";
+
+import searchIcon from "../../assets/search.png";
 
 const Search = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -39,21 +48,18 @@ const Search = () => {
   return (
     <>
       <SearchContainer>
-        <h2>
-          Searching Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Incidunt minima consequuntur quaerat commodi cumque magni, corrupti
-          asperiores dolorem ipsa at.
-        </h2>
-        <h1>Search 2</h1>
-        <form onSubmit={getSearchResult}>
-          <input
-            onChange={(e) => setSearchQuery(e.target.value)}
-            type="text"
-            name="search"
-            id=""
-          />
-          <button type="submit">Submit</button>
-        </form>
+        <SearchForm onSubmit={getSearchResult}>
+          <SearchGroup>
+            <SearchInput
+              onChange={(e) => setSearchQuery(e.target.value)}
+              type="text"
+              name="search"
+              id=""
+            />
+            <SearchIcon src={searchIcon} />
+            {/* <SubmitButton type="submit">Search</SubmitButton> */}
+          </SearchGroup>
+        </SearchForm>
         {albums.length > 0 && (
           <AlbumsContainer>
             {albums.map(

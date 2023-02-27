@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const AlbumsContainer = styled.div`
-  margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   row-gap: 40px;
   column-gap: 5px;
+  margin-top: 20px;
+  justify-items: center;
 
   @media (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
@@ -24,7 +25,7 @@ export const AlbumHeading = styled.h2``;
 
 export const AlbumCard = styled.div`
   max-width: 220px;
-  width: 100%;
+  background-color: #b4a6a61f;
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
@@ -40,6 +41,8 @@ export const AlbumBody = styled.div``;
 
 export const AlbumTitle = styled.p`
   font: 600 15px Poppins;
+  color: white;
+  width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -49,6 +52,5 @@ export const AlbumTitle = styled.p`
 export const AlbumAudio = styled.audio`
   margin: 10px 0 0 0;
   max-width: 200px;
-  min-height: 35px;
-  width: 100%;
+  max-height: 35px;
 `;
