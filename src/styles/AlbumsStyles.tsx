@@ -24,7 +24,7 @@ export const AlbumHeading = styled.h2``;
 
 export const AlbumCard = styled.div`
   max-width: 220px;
-  /* background-color: #7a6b6b; */
+  width: 100%;
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
@@ -40,7 +40,6 @@ export const AlbumBody = styled.div``;
 
 export const AlbumTitle = styled.p`
   font: 600 15px Poppins;
-  /* color: white; */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -50,5 +49,6 @@ export const AlbumTitle = styled.p`
 export const AlbumAudio = styled.audio`
   margin: 10px 0 0 0;
   max-width: 200px;
-  max-height: 35px;
+  min-height: 35px;
+  width: 100%;
 `;

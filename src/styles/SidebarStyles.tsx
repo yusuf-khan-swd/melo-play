@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const SidebarContainer = styled.div``;
+export const SidebarContainer = styled.div`
+  @media (max-width: 640px) {
+    display: none;
+  }
+`;
 
 export const SideNav = styled.div`
   height: 100%;
