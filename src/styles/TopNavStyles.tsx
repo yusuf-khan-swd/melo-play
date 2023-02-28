@@ -10,6 +10,7 @@ export const NavContainer = styled.div`
 
   @media (max-width: 940px) {
     margin-left: 60px;
+    padding: 10px;
   }
 `;
 
@@ -40,6 +41,11 @@ const buttonStyle = styled.button`
   :hover {
     transform: scale(105%);
   }
+
+  @media (max-width: 640px) {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
 `;
 
 export const Login = styled(buttonStyle)`
@@ -52,5 +58,9 @@ export const SignUp = styled(buttonStyle)`
   padding-right: 32px;
   :hover {
     color: white;
+  }
+
+  @media (max-width: 640px) {
+    padding-right: 10px;
   }
 `;
