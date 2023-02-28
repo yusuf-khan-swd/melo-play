@@ -36,7 +36,7 @@ const Search = () => {
       },
     };
 
-    if (searchQuery.length > 2) {
+    if (searchQuery.length >= 2) {
       setIsDataLoading(true);
       fetch(
         `https://spotify81.p.rapidapi.com/search?q=${searchQuery}&type=multi&offset=0&limit=50&numberOfTopResults=5`,
@@ -53,8 +53,6 @@ const Search = () => {
         });
     }
   }, [searchQuery]);
-
-  console.log(searchQuery);
 
   const getSearchResult = (event: React.FormEvent) => {
     event.preventDefault();
