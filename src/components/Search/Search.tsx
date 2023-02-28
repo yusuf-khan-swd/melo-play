@@ -17,16 +17,24 @@ import {
 } from "../../styles/SearchStyles";
 
 import searchIcon from "../../assets/search.png";
+import {
+  Spinner,
+  SpinnerBackground,
+  SpinnerScreenCenter,
+} from "../../styles/SpinnerStyles";
 
 const Search = () => {
+  const [isDataLoading, setIsDataLoading] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [albums, setAlbums] = useState([]);
 
   const getSearchResult = (event: React.FormEvent) => {
+    event.preventDefault();
+
     if (!searchQuery.trim()) {
       return window.alert("Please type something");
     }
-    event.preventDefault();
+
     const options = {
       method: "GET",
       headers: {
@@ -34,6 +42,8 @@ const Search = () => {
         "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
       },
     };
+
+    setIsDataLoading(true);
     fetch(
       `https://spotify81.p.rapidapi.com/search?q=${searchQuery}&type=multi&offset=0&limit=50&numberOfTopResults=5`,
       options
@@ -41,9 +51,23 @@ const Search = () => {
       .then((response) => response.json())
       .then((response) => {
         setAlbums(response.albums.items);
+        setIsDataLoading(false);
       })
-      .catch((err) => console.error(err));
+      .catch((err) => {
+        console.error(err);
+        setIsDataLoading(false);
+      });
   };
+
+  if (isDataLoading) {
+    return (
+      <SpinnerBackground>
+        <SpinnerScreenCenter>
+          <Spinner />
+        </SpinnerScreenCenter>
+      </SpinnerBackground>
+    );
+  }
 
   return (
     <>
@@ -56,8 +80,7 @@ const Search = () => {
               name="search"
               id=""
             />
-            <SearchIcon src={searchIcon} />
-            {/* <SubmitButton type="submit">Search</SubmitButton> */}
+            <SearchIcon onClick={getSearchResult} src={searchIcon} />
           </SearchGroup>
         </SearchForm>
         {albums.length > 0 && (
