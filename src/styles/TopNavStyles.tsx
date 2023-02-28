@@ -3,12 +3,25 @@ import styled from "styled-components";
 export const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 15px 20px;
   background-color: #2e2c2c;
   border-bottom: 1px solid grey;
+
+  @media (max-width: 940px) {
+    margin-left: 60px;
+  }
 `;
 
-export const ArrowContainer = styled.div``;
+export const NavLogo = styled.div`
+  color: #d1cdcd;
+  font: 700 18px "Poppins";
+  cursor: pointer;
+
+  :hover {
+    color: white;
+  }
+`;
 
 export const ArrowSVG = styled.svg``;
 

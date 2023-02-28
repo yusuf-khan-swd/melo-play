@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  ArrowContainer,
+  NavLogo,
   Login,
   LoginsContainer,
   NavContainer,
@@ -10,7 +10,7 @@ import {
 const TopNav = () => {
   return (
     <NavContainer>
-      <ArrowContainer />
+      <NavLogo> Melo Play </NavLogo>
       <LoginsContainer>
         <SignUp>Sign up</SignUp>
         <Login>Login</Login>

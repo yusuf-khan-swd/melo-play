@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
-export const SidebarContainer = styled.div`
-  @media (max-width: 640px) {
-    display: none;
-  }
-`;
+export const SidebarContainer = styled.div``;
 
 export const SideNav = styled.div`
   height: 100%;
@@ -28,13 +24,25 @@ export const SideNav = styled.div`
       color: #f1f1f1;
     }
   }
+
+  @media (max-width: 940px) {
+    width: 60px;
+  }
 `;
 
 export const NavLogo = styled.p`
   font: bold 25px "Poppins";
   margin: 0 0 8px 0;
+
+  @media (max-width: 940px) {
+    display: none;
+  }
 `;
 
 export const NavItemContent = styled.span`
   margin: 0 0 0 8px;
+
+  @media (max-width: 940px) {
+    display: none;
+  }
 `;

@@ -6,7 +6,7 @@ export const SearchContainer = styled.div`
   min-height: 100vh;
 
   @media (max-width: 640px) {
-    margin-left: 0;
+    margin-left: 60px;
   }
 `;
 
