@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   AlbumBody,
   AlbumCard,
@@ -13,7 +13,6 @@ import {
   SearchGroup,
   SearchIcon,
   SearchInput,
-  SubmitButton,
 } from "../../styles/SearchStyles";
 
 import searchIcon from "../../assets/search.png";
@@ -27,6 +26,35 @@ const Search = () => {
   const [isDataLoading, setIsDataLoading] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [albums, setAlbums] = useState([]);
+
+  useEffect(() => {
+    const options = {
+      method: "GET",
+      headers: {
+        "X-RapidAPI-Key": "d4872295damsh670d100a2e2ac32p179cc4jsn11255d82ba59",
+        "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
+      },
+    };
+
+    if (searchQuery.length > 2) {
+      setIsDataLoading(true);
+      fetch(
+        `https://spotify81.p.rapidapi.com/search?q=${searchQuery}&type=multi&offset=0&limit=50&numberOfTopResults=5`,
+        options
+      )
+        .then((response) => response.json())
+        .then((response) => {
+          setAlbums(response.albums.items);
+          setIsDataLoading(false);
+        })
+        .catch((err) => {
+          console.error(err);
+          setIsDataLoading(false);
+        });
+    }
+  }, [searchQuery]);
+
+  console.log(searchQuery);
 
   const getSearchResult = (event: React.FormEvent) => {
     event.preventDefault();
@@ -59,16 +87,6 @@ const Search = () => {
       });
   };
 
-  if (isDataLoading) {
-    return (
-      <SpinnerBackground>
-        <SpinnerScreenCenter>
-          <Spinner />
-        </SpinnerScreenCenter>
-      </SpinnerBackground>
-    );
-  }
-
   return (
     <>
       <SearchContainer>
@@ -83,6 +101,13 @@ const Search = () => {
             <SearchIcon onClick={getSearchResult} src={searchIcon} />
           </SearchGroup>
         </SearchForm>
+        {isDataLoading && (
+          <SpinnerBackground>
+            <SpinnerScreenCenter>
+              <Spinner />
+            </SpinnerScreenCenter>
+          </SpinnerBackground>
+        )}
         {albums.length > 0 && (
           <AlbumsContainer>
             {albums.map(
