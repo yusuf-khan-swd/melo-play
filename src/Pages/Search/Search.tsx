@@ -8,7 +8,7 @@ import {
   AlbumTitle,
 } from "../../styles/AlbumsStyles";
 import {
-  SearchContainer,
+  SearchBody,
   SearchForm,
   SearchGroup,
   SearchIcon,
@@ -86,55 +86,53 @@ const Search = () => {
   };
 
   return (
-    <>
-      <SearchContainer>
-        <SearchForm onSubmit={getSearchResult}>
-          <SearchGroup>
-            <SearchInput
-              onChange={(e) => setSearchQuery(e.target.value)}
-              type="text"
-              name="search"
-              id=""
-            />
-            <SearchIcon onClick={getSearchResult} src={searchIcon} />
-          </SearchGroup>
-        </SearchForm>
-        {isDataLoading && (
-          <SpinnerBackground>
-            <SpinnerScreenCenter>
-              <Spinner />
-            </SpinnerScreenCenter>
-          </SpinnerBackground>
-        )}
-        {albums.length > 0 && (
-          <AlbumsContainer>
-            {albums.map(
-              (
-                album: {
-                  data: {
-                    name: string;
-                    coverArt: { sources: [Key: { url: string }] };
-                  };
-                },
-                index: number
-              ) => (
-                <AlbumCard key={index}>
-                  <AlbumImageContainer>
-                    <AlbumImage
-                      src={album?.data?.coverArt?.sources[0].url}
-                      alt=""
-                    />
-                  </AlbumImageContainer>
-                  <AlbumBody>
-                    <AlbumTitle>{album?.data.name}</AlbumTitle>
-                  </AlbumBody>
-                </AlbumCard>
-              )
-            )}
-          </AlbumsContainer>
-        )}
-      </SearchContainer>
-    </>
+    <SearchBody>
+      <SearchForm onSubmit={getSearchResult}>
+        <SearchGroup>
+          <SearchInput
+            onChange={(e) => setSearchQuery(e.target.value)}
+            type="text"
+            name="search"
+            id=""
+          />
+          <SearchIcon onClick={getSearchResult} src={searchIcon} />
+        </SearchGroup>
+      </SearchForm>
+      {isDataLoading && (
+        <SpinnerBackground>
+          <SpinnerScreenCenter>
+            <Spinner />
+          </SpinnerScreenCenter>
+        </SpinnerBackground>
+      )}
+      {albums.length > 0 && (
+        <AlbumsContainer>
+          {albums.map(
+            (
+              album: {
+                data: {
+                  name: string;
+                  coverArt: { sources: [Key: { url: string }] };
+                };
+              },
+              index: number
+            ) => (
+              <AlbumCard key={index}>
+                <AlbumImageContainer>
+                  <AlbumImage
+                    src={album?.data?.coverArt?.sources[0].url}
+                    alt=""
+                  />
+                </AlbumImageContainer>
+                <AlbumBody>
+                  <AlbumTitle>{album?.data.name}</AlbumTitle>
+                </AlbumBody>
+              </AlbumCard>
+            )
+          )}
+        </AlbumsContainer>
+      )}
+    </SearchBody>
   );
 };
 

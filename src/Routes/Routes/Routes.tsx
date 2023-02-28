@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Favorite from "../../components/Favorite/Favorite";
 import Playlist from "../../components/Playlist/Playlist";
-import Search from "../../components/Search/Search";
+import Search from "../../Pages/Search/Search";
 import MainLayouts from "../../layouts/MainLayouts";
 import Home from "../../Pages/Home/Home";
 

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SearchContainer = styled.div`
+export const SearchBody = styled.div`
   margin-left: 220px;
   background-color: #2e2c2c;
   min-height: 100vh;
