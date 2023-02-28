@@ -13,4 +13,5 @@ export const MainBody = styled.div`
 
 export const DataIsMissing = styled.h2`
   color: white;
+  text-align: center;
 `;

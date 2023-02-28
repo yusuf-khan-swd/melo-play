@@ -52,8 +52,6 @@ const MainBodySection = () => {
     );
   }
 
-  console.log(tracks.length);
-
   return (
     <MainBody>
       {!tracks.length ? (
