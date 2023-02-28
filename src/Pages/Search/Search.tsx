@@ -64,7 +64,7 @@ const Search = () => {
     const options = {
       method: "GET",
       headers: {
-        "X-RapidAPI-Key": "d4872295damsh670d100a2e2ac32p179cc4jsn11255d82ba59",
+        "X-RapidAPI-Key": "9c0cb3cfc5mshf2a02c9550666eep1dbb03jsn296a8bf2c6c2",
         "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
       },
     };
