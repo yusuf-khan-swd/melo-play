@@ -9,7 +9,7 @@ export const TracksContainer = styled.div`
   justify-items: center;
 
   @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   @media (min-width: 1024px) {

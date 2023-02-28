@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SearchBody = styled.div`
-  margin-left: 220px;
+  margin-left: 210px;
   background-color: #2e2c2c;
   min-height: 100vh;
 
