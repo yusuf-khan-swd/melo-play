@@ -5,7 +5,7 @@ export const SearchBody = styled.div`
   background-color: #2e2c2c;
   min-height: 100vh;
 
-  @media (max-width: 640px) {
+  @media (max-width: 940px) {
     margin-left: 60px;
   }
 `;
