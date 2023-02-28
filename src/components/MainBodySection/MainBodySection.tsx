@@ -21,22 +21,26 @@ const MainBodySection = () => {
   const { isLoading, data: tracks } = useQuery({
     queryKey: ["tracks"],
     queryFn: async () => {
-      const options = {
-        method: "GET",
-        headers: {
-          "X-RapidAPI-Key":
-            "d4872295damsh670d100a2e2ac32p179cc4jsn11255d82ba59",
-          "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
-        },
-      };
+      try {
+        const options = {
+          method: "GET",
+          headers: {
+            "X-RapidAPI-Key":
+              "d4872295damsh670d100a2e2ac32p179cc4jsn11255d82ba59",
+            "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
+          },
+        };
 
-      const res = await fetch(
-        "https://spotify81.p.rapidapi.com/top_200_tracks",
-        options
-      );
-      const data = await res.json();
+        const res = await fetch(
+          "https://spotify81.p.rapidapi.com/top_200_tracks",
+          options
+        );
 
-      return data;
+        const data = await res.json();
+        return data;
+      } catch (error) {
+        console.log({ catch: error });
+      }
     },
   });
 
