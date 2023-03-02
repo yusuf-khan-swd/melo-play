@@ -5,7 +5,7 @@ export const SidebarContainer = styled.div``;
 export const SideNav = styled.div`
   height: 100%;
   position: fixed;
-  width: 210px;
+  max-width: 210px;
   top: 0;
   left: 0;
   background-color: #111;
@@ -26,7 +26,7 @@ export const SideNav = styled.div`
   }
 
   @media (max-width: 940px) {
-    width: 60px;
+    max-width: 60px;
   }
 `;
 

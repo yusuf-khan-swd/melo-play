@@ -33,7 +33,7 @@ export const AlbumCard = styled.div`
 
 export const AlbumImageContainer = styled.div``;
 export const AlbumImage = styled.img`
-  width: 100%;
+  max-width: 100%;
   border-radius: 5px;
 `;
 
@@ -42,7 +42,7 @@ export const AlbumBody = styled.div``;
 export const AlbumTitle = styled.p`
   font: 600 15px Poppins;
   color: white;
-  width: 200px;
+  max-width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
