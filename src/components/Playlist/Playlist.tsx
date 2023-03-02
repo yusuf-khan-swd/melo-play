@@ -1,10 +1,11 @@
 import React from "react";
+import { MainBodyContainer } from "../../styles";
 
 const Playlist = () => {
   return (
-    <div>
+    <MainBodyContainer>
       <h2>Playlist</h2>
-    </div>
+    </MainBodyContainer>
   );
 };
 

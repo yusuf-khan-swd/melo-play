@@ -1,10 +1,11 @@
 import React from "react";
+import { MainBodyContainer } from "../../styles";
 
 const Favorite = () => {
   return (
-    <div>
+    <MainBodyContainer>
       <h2>Favorite</h2>
-    </div>
+    </MainBodyContainer>
   );
 };
 
