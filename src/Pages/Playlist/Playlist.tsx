@@ -1,4 +1,3 @@
-import React from "react";
 import { MainBodyContainer } from "../../styles";
 
 const Playlist = () => {
