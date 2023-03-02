@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { AiOutlineHeart } from "react-icons/ai";
+import { MdPlaylistAdd } from "react-icons/md";
 import {
   AlbumBody,
   AlbumCard,
@@ -21,6 +23,11 @@ import {
   SpinnerScreenCenter,
 } from "../../styles/SpinnerStyles";
 import { MainBodyContainer } from "../../styles";
+import {
+  CardIconContainer,
+  FavoriteIcon,
+  PlayListIcon,
+} from "../../styles/MusicCardStyles";
 
 const Search = () => {
   const [isDataLoading, setIsDataLoading] = useState(false);
@@ -127,6 +134,14 @@ const Search = () => {
                 <AlbumBody>
                   <AlbumTitle>{album?.data.name}</AlbumTitle>
                 </AlbumBody>
+                <CardIconContainer>
+                  <FavoriteIcon>
+                    <AiOutlineHeart size={25} fill="white" />
+                  </FavoriteIcon>
+                  <PlayListIcon>
+                    <MdPlaylistAdd size={25} fill="white" />
+                  </PlayListIcon>
+                </CardIconContainer>
               </AlbumCard>
             )
           )}
