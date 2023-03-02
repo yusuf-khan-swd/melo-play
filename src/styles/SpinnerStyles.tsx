@@ -13,7 +13,7 @@ export const SpinnerScreenCenter = styled.div`
 `;
 
 export const Spinner = styled.span`
-  max-width: 48px;
+  width: 48px;
   height: 48px;
   border: 5px solid #fff;
   border-bottom-color: transparent;
