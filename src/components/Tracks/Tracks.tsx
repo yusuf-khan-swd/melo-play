@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import { MdPlaylistAdd, MdPlaylistAddCheck } from "react-icons/md";
 import {
@@ -14,6 +14,7 @@ import {
 } from "../../styles/TracksStyles";
 
 import horse from "../../assets/horse.mp3";
+import { useMusics } from "../../context/MusicProvider";
 
 type Props = {
   image: string;
@@ -23,6 +24,7 @@ type Props = {
 const Tracks = ({ image, title }: Props) => {
   const [addedToFavorite, setAddedToFavorite] = useState(false);
   const [addedToPlaylist, setAddedPlaylist] = useState(false);
+  const { setFavoriteMusics } = useMusics();
 
   const addToFavorite = (imageUrl: string, title: string) => {
     const favoriteItem = {
@@ -31,6 +33,7 @@ const Tracks = ({ image, title }: Props) => {
     };
 
     setAddedToFavorite((prev) => !prev);
+    setFavoriteMusics((prev) => [...prev, favoriteItem]);
   };
 
   const addToPlaylist = (imageUrl: string, title: string) => {
