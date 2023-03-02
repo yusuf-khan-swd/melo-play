@@ -34,33 +34,6 @@ const Search = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [albums, setAlbums] = useState([]);
 
-  // useEffect(() => {
-  //   const options = {
-  //     method: "GET",
-  //     headers: {
-  //       "X-RapidAPI-Key": "9c0cb3cfc5mshf2a02c9550666eep1dbb03jsn296a8bf2c6c2",
-  //       "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
-  //     },
-  //   };
-
-  //   if (searchQuery.length >= 2) {
-  //     setIsDataLoading(true);
-  //     fetch(
-  //       `https://spotify81.p.rapidapi.com/search?q=${searchQuery}&type=multi&offset=0&limit=50&numberOfTopResults=5`,
-  //       options
-  //     )
-  //       .then((response) => response.json())
-  //       .then((response) => {
-  //         setAlbums(response.albums.items);
-  //         setIsDataLoading(false);
-  //       })
-  //       .catch((err) => {
-  //         console.error(err);
-  //         setIsDataLoading(false);
-  //       });
-  //   }
-  // }, [searchQuery]);
-
   const getSearchResult = (event: React.FormEvent) => {
     event.preventDefault();
 
@@ -90,6 +63,15 @@ const Search = () => {
         console.error(err);
         setIsDataLoading(false);
       });
+  };
+
+  const addToFavorite = (imageUrl: string, title: string) => {
+    const favoriteItem = {
+      imageUrl,
+      title,
+    };
+
+    return favoriteItem;
   };
 
   return (
@@ -135,7 +117,14 @@ const Search = () => {
                   <AlbumTitle>{album?.data.name}</AlbumTitle>
                 </AlbumBody>
                 <CardIconContainer>
-                  <FavoriteIcon>
+                  <FavoriteIcon
+                    onClick={() =>
+                      addToFavorite(
+                        album?.data?.coverArt?.sources[0].url,
+                        album?.data.name
+                      )
+                    }
+                  >
                     <AiOutlineHeart size={25} fill="white" />
                   </FavoriteIcon>
                   <PlayListIcon>
