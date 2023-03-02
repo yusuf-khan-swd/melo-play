@@ -5,7 +5,7 @@ export const TracksContainer = styled.div`
   grid-template-columns: repeat(1, 1fr);
   row-gap: 40px;
   column-gap: 5px;
-  margin-top: 20px;
+  padding-top: 20px;
   justify-items: center;
 
   @media (min-width: 768px) {
@@ -40,7 +40,7 @@ export const TracksBody = styled.div``;
 export const TrackTitle = styled.p`
   font: 600 15px Poppins;
   color: white;
-  width: 200px;
+  max-width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
