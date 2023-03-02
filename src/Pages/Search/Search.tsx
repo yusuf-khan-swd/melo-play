@@ -1,14 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { AiOutlineHeart } from "react-icons/ai";
-import { MdPlaylistAdd } from "react-icons/md";
-import {
-  AlbumBody,
-  AlbumCard,
-  AlbumImage,
-  AlbumImageContainer,
-  AlbumsContainer,
-  AlbumTitle,
-} from "../../styles/AlbumsStyles";
+import React, { useState, useContext } from "react";
 import {
   SearchForm,
   SearchGroup,
@@ -23,16 +13,16 @@ import {
   SpinnerScreenCenter,
 } from "../../styles/SpinnerStyles";
 import { MainBodyContainer } from "../../styles";
-import {
-  CardIconContainer,
-  FavoriteIcon,
-  PlayListIcon,
-} from "../../styles/MusicCardStyles";
+
+import { MusicContext } from "../../context/MusicProvider";
+import Tracks from "../../components/Tracks/Tracks";
+import { TracksContainer } from "../../styles/TracksStyles";
 
 const Search = () => {
   const [isDataLoading, setIsDataLoading] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [albums, setAlbums] = useState([]);
+  const {} = useContext(MusicContext);
 
   const getSearchResult = (event: React.FormEvent) => {
     event.preventDefault();
@@ -65,15 +55,6 @@ const Search = () => {
       });
   };
 
-  const addToFavorite = (imageUrl: string, title: string) => {
-    const favoriteItem = {
-      imageUrl,
-      title,
-    };
-
-    return favoriteItem;
-  };
-
   return (
     <MainBodyContainer>
       <SearchForm onSubmit={getSearchResult}>
@@ -95,7 +76,7 @@ const Search = () => {
         </SpinnerBackground>
       )}
       {albums.length > 0 && (
-        <AlbumsContainer>
+        <TracksContainer>
           {albums.map(
             (
               album: {
@@ -106,35 +87,14 @@ const Search = () => {
               },
               index: number
             ) => (
-              <AlbumCard key={index}>
-                <AlbumImageContainer>
-                  <AlbumImage
-                    src={album?.data?.coverArt?.sources[0].url}
-                    alt=""
-                  />
-                </AlbumImageContainer>
-                <AlbumBody>
-                  <AlbumTitle>{album?.data.name}</AlbumTitle>
-                </AlbumBody>
-                <CardIconContainer>
-                  <FavoriteIcon
-                    onClick={() =>
-                      addToFavorite(
-                        album?.data?.coverArt?.sources[0].url,
-                        album?.data.name
-                      )
-                    }
-                  >
-                    <AiOutlineHeart size={25} fill="white" />
-                  </FavoriteIcon>
-                  <PlayListIcon>
-                    <MdPlaylistAdd size={25} fill="white" />
-                  </PlayListIcon>
-                </CardIconContainer>
-              </AlbumCard>
+              <Tracks
+                key={index}
+                image={album?.data?.coverArt?.sources[0].url}
+                title={album?.data.name}
+              />
             )
           )}
-        </AlbumsContainer>
+        </TracksContainer>
       )}
     </MainBodyContainer>
   );
