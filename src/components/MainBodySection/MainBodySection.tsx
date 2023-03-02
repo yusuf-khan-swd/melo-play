@@ -4,7 +4,7 @@ import {
   SpinnerBackground,
   SpinnerScreenCenter,
 } from "../../styles/SpinnerStyles";
-import { DataIsMissing, MainBody } from "../../styles/MainContentStyles";
+import { DataIsMissing } from "../../styles/MainContentStyles";
 import {
   TrackAudio,
   TrackCard,
@@ -16,6 +16,7 @@ import {
 } from "../../styles/TracksStyles";
 
 import horse from "../../assets/horse.mp3";
+import { MainBodyContainer } from "../../styles";
 
 const MainBodySection = () => {
   const { isLoading, data: tracks } = useQuery({
@@ -57,7 +58,7 @@ const MainBodySection = () => {
   }
 
   return (
-    <MainBody>
+    <MainBodyContainer>
       {!tracks.length ? (
         <DataIsMissing>Data is Missing</DataIsMissing>
       ) : (
@@ -85,7 +86,7 @@ const MainBodySection = () => {
           )}
         </TracksContainer>
       )}
-    </MainBody>
+    </MainBodyContainer>
   );
 };
 

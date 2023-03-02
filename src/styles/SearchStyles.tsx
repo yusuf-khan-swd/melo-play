@@ -1,15 +1,5 @@
 import styled from "styled-components";
 
-export const SearchBody = styled.div`
-  margin-left: 210px;
-  background-color: #2e2c2c;
-  min-height: 100vh;
-
-  @media (max-width: 940px) {
-    margin-left: 60px;
-  }
-`;
-
 export const SearchForm = styled.form`
   padding: 30px 15px;
   display: flex;

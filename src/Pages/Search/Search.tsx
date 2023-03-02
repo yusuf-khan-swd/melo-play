@@ -8,7 +8,6 @@ import {
   AlbumTitle,
 } from "../../styles/AlbumsStyles";
 import {
-  SearchBody,
   SearchForm,
   SearchGroup,
   SearchIcon,
@@ -21,38 +20,39 @@ import {
   SpinnerBackground,
   SpinnerScreenCenter,
 } from "../../styles/SpinnerStyles";
+import { MainBodyContainer } from "../../styles";
 
 const Search = () => {
   const [isDataLoading, setIsDataLoading] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [albums, setAlbums] = useState([]);
 
-  useEffect(() => {
-    const options = {
-      method: "GET",
-      headers: {
-        "X-RapidAPI-Key": "9c0cb3cfc5mshf2a02c9550666eep1dbb03jsn296a8bf2c6c2",
-        "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
-      },
-    };
+  // useEffect(() => {
+  //   const options = {
+  //     method: "GET",
+  //     headers: {
+  //       "X-RapidAPI-Key": "9c0cb3cfc5mshf2a02c9550666eep1dbb03jsn296a8bf2c6c2",
+  //       "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
+  //     },
+  //   };
 
-    if (searchQuery.length >= 2) {
-      setIsDataLoading(true);
-      fetch(
-        `https://spotify81.p.rapidapi.com/search?q=${searchQuery}&type=multi&offset=0&limit=50&numberOfTopResults=5`,
-        options
-      )
-        .then((response) => response.json())
-        .then((response) => {
-          setAlbums(response.albums.items);
-          setIsDataLoading(false);
-        })
-        .catch((err) => {
-          console.error(err);
-          setIsDataLoading(false);
-        });
-    }
-  }, [searchQuery]);
+  //   if (searchQuery.length >= 2) {
+  //     setIsDataLoading(true);
+  //     fetch(
+  //       `https://spotify81.p.rapidapi.com/search?q=${searchQuery}&type=multi&offset=0&limit=50&numberOfTopResults=5`,
+  //       options
+  //     )
+  //       .then((response) => response.json())
+  //       .then((response) => {
+  //         setAlbums(response.albums.items);
+  //         setIsDataLoading(false);
+  //       })
+  //       .catch((err) => {
+  //         console.error(err);
+  //         setIsDataLoading(false);
+  //       });
+  //   }
+  // }, [searchQuery]);
 
   const getSearchResult = (event: React.FormEvent) => {
     event.preventDefault();
@@ -86,7 +86,7 @@ const Search = () => {
   };
 
   return (
-    <SearchBody>
+    <MainBodyContainer>
       <SearchForm onSubmit={getSearchResult}>
         <SearchGroup>
           <SearchInput
@@ -132,7 +132,7 @@ const Search = () => {
           )}
         </AlbumsContainer>
       )}
-    </SearchBody>
+    </MainBodyContainer>
   );
 };
 
