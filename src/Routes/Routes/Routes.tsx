@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-import Favorite from "../../components/Favorite/Favorite";
-import Playlist from "../../components/Playlist/Playlist";
+import Favorite from "../../Pages/Favorite/Favorite";
+import Playlist from "../../Pages/Playlist/Playlist";
 import Search from "../../Pages/Search/Search";
 import MainLayouts from "../../layouts/MainLayouts";
 import Home from "../../Pages/Home/Home";
