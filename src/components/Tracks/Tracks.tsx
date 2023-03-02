@@ -35,7 +35,7 @@ const Tracks = ({ image, title }: Props) => {
     };
 
     setAddedToFavorite((prev) => !prev);
-    setFavoriteMusics((prev) => [...prev, favoriteItem]);
+    setFavoriteMusics((prev: []) => [...prev, favoriteItem]);
   };
 
   const addToPlaylist = (imageUrl: string, title: string) => {
@@ -45,7 +45,7 @@ const Tracks = ({ image, title }: Props) => {
     };
 
     setAddedPlaylist(!addedToPlaylist);
-    setPlaylistMusics((prev) => [...prev, playlistItem]);
+    setPlaylistMusics((prev: []) => [...prev, playlistItem]);
   };
 
   return (

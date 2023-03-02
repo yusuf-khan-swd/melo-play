@@ -4,7 +4,12 @@ type Props = {
   children: React.ReactNode;
 };
 
-export const MusicContext = createContext({});
+export const MusicContext = createContext({
+  favoriteMusics: [],
+  playlistMusics: [],
+  setFavoriteMusics: (prev: any) => {},
+  setPlaylistMusics: (prev: any) => {},
+});
 
 const MusicProvider = ({ children }: Props) => {
   const [favoriteMusics, setFavoriteMusics] = useState([]);
