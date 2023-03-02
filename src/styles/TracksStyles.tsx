@@ -5,7 +5,7 @@ export const TracksContainer = styled.div`
   grid-template-columns: repeat(1, 1fr);
   row-gap: 40px;
   column-gap: 5px;
-  padding-top: 20px;
+  padding: 20px 0;
   justify-items: center;
 
   @media (min-width: 768px) {
@@ -48,7 +48,7 @@ export const TrackTitle = styled.p`
 `;
 
 export const TrackAudio = styled.audio`
-  margin: 10px 0 0 0;
+  margin: 15px 0 0 0;
   max-width: 200px;
   max-height: 35px;
 `;

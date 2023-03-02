@@ -15,6 +15,7 @@ import {
 
 import horse from "../../assets/horse.mp3";
 import { useMusics } from "../../context/MusicProvider";
+import { useLocation } from "react-router-dom";
 
 type Props = {
   image: string;
@@ -24,7 +25,8 @@ type Props = {
 const Tracks = ({ image, title }: Props) => {
   const [addedToFavorite, setAddedToFavorite] = useState(false);
   const [addedToPlaylist, setAddedPlaylist] = useState(false);
-  const { setFavoriteMusics } = useMusics();
+  const { setFavoriteMusics, setPlaylistMusics } = useMusics();
+  const { pathname } = useLocation();
 
   const addToFavorite = (imageUrl: string, title: string) => {
     const favoriteItem = {
@@ -43,6 +45,7 @@ const Tracks = ({ image, title }: Props) => {
     };
 
     setAddedPlaylist(!addedToPlaylist);
+    setPlaylistMusics((prev) => [...prev, playlistItem]);
   };
 
   return (
@@ -52,23 +55,27 @@ const Tracks = ({ image, title }: Props) => {
       </TrackImageContainer>
       <TracksBody>
         <TrackTitle>{title}</TrackTitle>
-        <TrackAudio src={horse} controls />
       </TracksBody>
+      <TrackAudio src={horse} controls />
       <CardIconContainer>
-        <FavoriteIcon onClick={() => addToFavorite(image, title)}>
-          {!addedToFavorite ? (
-            <AiOutlineHeart size={35} fill="white" />
-          ) : (
-            <AiFillHeart size={35} fill="white" />
-          )}
-        </FavoriteIcon>
-        <PlayListIcon onClick={() => addToPlaylist(image, title)}>
-          {!addedToPlaylist ? (
-            <MdPlaylistAdd size={35} fill="white" />
-          ) : (
-            <MdPlaylistAddCheck size={35} fill="white" />
-          )}
-        </PlayListIcon>
+        {!pathname.includes("favorite") && (
+          <FavoriteIcon onClick={() => addToFavorite(image, title)}>
+            {!addedToFavorite ? (
+              <AiOutlineHeart size={35} fill="white" />
+            ) : (
+              <AiFillHeart size={35} fill="white" />
+            )}
+          </FavoriteIcon>
+        )}
+        {!pathname.includes("playlist") && (
+          <PlayListIcon onClick={() => addToPlaylist(image, title)}>
+            {!addedToPlaylist ? (
+              <MdPlaylistAdd size={35} fill="white" />
+            ) : (
+              <MdPlaylistAddCheck size={35} fill="white" />
+            )}
+          </PlayListIcon>
+        )}
       </CardIconContainer>
     </TrackCard>
   );

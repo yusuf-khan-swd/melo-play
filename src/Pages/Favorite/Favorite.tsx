@@ -6,13 +6,14 @@ import { TracksContainer } from "../../styles/TracksStyles";
 
 const Favorite = () => {
   const { favoriteMusics } = useMusics();
-  console.log(favoriteMusics);
   return (
     <MainBodyContainer>
       <TracksContainer>
-        {favoriteMusics.map((music, index) => (
-          <Tracks key={index} title={music.title} image={music.imageUrl} />
-        ))}
+        {favoriteMusics.map(
+          (music: { title: string; imageUrl: string }, index: number) => (
+            <Tracks key={index} title={music.title} image={music.imageUrl} />
+          )
+        )}
       </TracksContainer>
     </MainBodyContainer>
   );
