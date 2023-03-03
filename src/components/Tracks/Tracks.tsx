@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import { MdPlaylistAdd, MdPlaylistAddCheck } from "react-icons/md";
 import {
-  CardIconContainer,
+  CardActionContainer,
   FavoriteIcon,
   PlayListIcon,
   TrackAudio,
@@ -56,8 +56,8 @@ const Tracks = ({ image, title }: Props) => {
       <TracksBody>
         <TrackTitle>{title}</TrackTitle>
       </TracksBody>
-      <TrackAudio src={horse} controls />
-      <CardIconContainer>
+
+      <CardActionContainer>
         {!pathname.includes("favorite") && (
           <FavoriteIcon onClick={() => addToFavorite(image, title)}>
             {!addedToFavorite ? (
@@ -67,6 +67,7 @@ const Tracks = ({ image, title }: Props) => {
             )}
           </FavoriteIcon>
         )}
+        <TrackAudio src={horse} controls />
         {!pathname.includes("playlist") && (
           <PlayListIcon onClick={() => addToPlaylist(image, title)}>
             {!addedToPlaylist ? (
@@ -76,7 +77,7 @@ const Tracks = ({ image, title }: Props) => {
             )}
           </PlayListIcon>
         )}
-      </CardIconContainer>
+      </CardActionContainer>
     </TrackCard>
   );
 };

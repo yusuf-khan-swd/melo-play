@@ -46,22 +46,26 @@ export const TrackTitle = styled.p`
   text-align: center;
 `;
 
-export const TrackAudio = styled.audio`
-  margin: 15px 0 0 0;
-  max-width: 200px;
-  max-height: 35px;
-`;
-
-export const CardIconContainer = styled.div`
-  margin: 8px 0 0 0;
+export const CardActionContainer = styled.div`
+  margin: 20px 0 5px 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+`;
+
+export const TrackAudio = styled.audio`
+  max-width: 110px;
+  max-height: 35px;
 `;
 
 export const FavoriteIcon = styled.div`
   cursor: pointer;
+  display: grid;
+  align-content: center;
 `;
 
 export const PlayListIcon = styled.div`
   cursor: pointer;
+  display: grid;
+  align-content: center;
 `;
