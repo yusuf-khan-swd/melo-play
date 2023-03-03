@@ -3,9 +3,8 @@ import styled from "styled-components";
 export const TracksContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  row-gap: 40px;
-  column-gap: 5px;
-  padding: 20px 0;
+  gap: 25px;
+  padding: 20px;
   justify-items: center;
 
   @media (min-width: 768px) {
@@ -22,7 +21,7 @@ export const TracksContainer = styled.div`
 `;
 
 export const TrackCard = styled.div`
-  max-width: 220px;
+  max-width: 300px;
   background-color: #b4a6a61f;
   padding: 10px;
   border-radius: 8px;
