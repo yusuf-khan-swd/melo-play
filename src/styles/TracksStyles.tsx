@@ -26,6 +26,7 @@ export const TrackCard = styled.div`
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  position: relative;
 `;
 
 export const TrackImageContainer = styled.div``;
@@ -79,4 +80,8 @@ export const PlayListIcon = styled.div`
   align-content: center;
 `;
 
-export const PlayButtonContainer = styled.div``;
+export const PlayButtonContainer = styled.div`
+  position: absolute;
+  top: 120px;
+  left: 120px;
+`;
