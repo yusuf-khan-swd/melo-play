@@ -46,6 +46,9 @@ const MainBodySection = () => {
     );
   }
 
+  console.log(tracks[102].trackMetadata.trackUri);
+  console.log(tracks);
+
   return (
     <MainBodyContainer>
       {!tracks.length ? (
