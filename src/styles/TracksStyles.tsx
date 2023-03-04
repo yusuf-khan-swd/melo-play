@@ -34,12 +34,21 @@ export const TrackImage = styled.img`
   border-radius: 5px;
 `;
 
-export const TracksBody = styled.div``;
+export const TracksBody = styled.div`
+  max-width: 235px;
+
+  @media (max-width: 1075px) {
+    max-width: 200px;
+  }
+
+  @media (max-width: 640px) {
+    min-width: 100%;
+  }
+`;
 
 export const TrackTitle = styled.p`
   font: 600 15px Poppins;
   color: white;
-  max-width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -69,3 +78,5 @@ export const PlayListIcon = styled.div`
   display: grid;
   align-content: center;
 `;
+
+export const PlayButtonContainer = styled.div``;
