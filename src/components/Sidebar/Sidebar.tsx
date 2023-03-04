@@ -1,6 +1,6 @@
 import React from "react";
 import { FaHeart, FaHome, FaList, FaSearch } from "react-icons/fa";
-import { json, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import {
   NavItemContent,
   NavLogo,
