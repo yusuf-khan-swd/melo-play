@@ -15,9 +15,14 @@ export const SearchGroup = styled.div`
 `;
 
 export const SearchInput = styled.input`
-  padding: 0 35px;
+  padding: 0 5px;
   outline: none;
   border: none;
+  min-width: 350px;
+
+  @media (max-width: 640px) {
+    min-width: 200px;
+  }
 `;
 
 export const SearchIcon = styled.img`
