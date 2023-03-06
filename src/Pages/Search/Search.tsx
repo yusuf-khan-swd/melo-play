@@ -1,5 +1,7 @@
 import React, { useState, useContext } from "react";
 import {
+  NoDataContainer,
+  NoDataTitle,
   SearchForm,
   SearchGroup,
   SearchIcon,
@@ -68,6 +70,11 @@ const Search = () => {
           <SearchIcon onClick={getSearchResult} src={searchIcon} />
         </SearchGroup>
       </SearchForm>
+      {!albums.length && !isDataLoading && (
+        <NoDataContainer>
+          <NoDataTitle>No Data Available</NoDataTitle>
+        </NoDataContainer>
+      )}
       {isDataLoading && (
         <SpinnerBackground>
           <SpinnerScreenCenter>

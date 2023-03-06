@@ -6,6 +6,16 @@ export const SearchForm = styled.form`
   justify-content: center;
 `;
 
+export const NoDataContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+export const NoDataTitle = styled.p`
+  font: 500 25px "Poppins";
+  color: white;
+`;
+
 export const SearchGroup = styled.div`
   display: flex;
   background-color: white;
