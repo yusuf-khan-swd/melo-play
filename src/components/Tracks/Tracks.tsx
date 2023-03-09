@@ -63,7 +63,7 @@ const Tracks = ({ image, title }: Props) => {
             {!addedToFavorite ? (
               <AiOutlineHeart size={35} fill="white" />
             ) : (
-              <AiFillHeart size={35} fill="white" />
+              <AiFillHeart size={35} fill="red" />
             )}
           </FavoriteIcon>
         )}
