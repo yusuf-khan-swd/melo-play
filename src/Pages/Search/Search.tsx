@@ -90,6 +90,7 @@ const Search = () => {
                 data: {
                   name: string;
                   coverArt: { sources: [Key: { url: string }] };
+                  uri: string;
                 };
               },
               index: number
@@ -98,6 +99,7 @@ const Search = () => {
                 key={index}
                 image={album?.data?.coverArt?.sources[0].url}
                 title={album?.data.name}
+                trackUri={album?.data.uri}
               />
             )
           )}
