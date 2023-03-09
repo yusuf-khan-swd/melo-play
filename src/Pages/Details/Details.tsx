@@ -14,15 +14,15 @@ const Details = () => {
   const [isDataLoading, setIsDataLoading] = useState(false);
   const [track, setTrack] = useState({ album: { uri: "" } });
 
-  useEffect(() => {
-    const options = {
-      method: "GET",
-      headers: {
-        "X-RapidAPI-Key": "9c0cb3cfc5mshf2a02c9550666eep1dbb03jsn296a8bf2c6c2",
-        "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
-      },
-    };
+  const options = {
+    method: "GET",
+    headers: {
+      "X-RapidAPI-Key": "9c0cb3cfc5mshf2a02c9550666eep1dbb03jsn296a8bf2c6c2",
+      "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
+    },
+  };
 
+  useEffect(() => {
     if (pathname.includes("track")) {
       setIsDataLoading(true);
       fetch(`https://spotify81.p.rapidapi.com/tracks?ids=${id}`, options)
@@ -63,7 +63,7 @@ const Details = () => {
 
   return (
     <MainBodyContainer>
-      <h2>This is details page for ID: {id}</h2>
+      <h2>This is details page for ID: {albumUri}</h2>
     </MainBodyContainer>
   );
 };
