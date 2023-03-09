@@ -32,7 +32,11 @@ export const router = createBrowserRouter([
         element: <Playlist />,
       },
       {
-        path: "/details/:id",
+        path: "/details-track/:id/",
+        element: <Details />,
+      },
+      {
+        path: "/details-album/:id/",
         element: <Details />,
       },
     ],
