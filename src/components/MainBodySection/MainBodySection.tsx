@@ -34,8 +34,8 @@ const MainBodySection = () => {
     );
   }
 
-  console.log(tracks[123].trackMetadata);
-  console.log(tracks);
+  // console.log(tracks[123].trackMetadata);
+  // console.log(tracks);
 
   return (
     <MainBodyContainer>
