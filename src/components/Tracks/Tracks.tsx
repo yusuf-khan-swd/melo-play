@@ -49,11 +49,16 @@ const Tracks = ({ image, title, trackUri }: Props) => {
     setPlaylistMusics((prev: []) => [...prev, playlistItem]);
   };
 
-  const trackId = trackUri.split("spotify:track:")[1];
+  let trackId = "";
+  if (trackUri?.includes("track")) {
+    trackId = "/details-track/" + trackUri.split("spotify:track:")[1];
+  } else if (trackUri?.includes("album")) {
+    trackId = "/details-album/" + trackUri.split("spotify:album:")[1];
+  }
 
   return (
     <TrackCard>
-      <NavLink to={`/details/${trackId}`}>
+      <NavLink to={`${trackId}`}>
         <TrackImageContainer>
           <TrackImage src={image} alt="cover-art" />
         </TrackImageContainer>
