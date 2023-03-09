@@ -15,7 +15,6 @@ const MainBodySection = () => {
     queryFn: async () => {
       try {
         const res = await fetch("musics.json");
-
         const data = await res.json();
         return data;
       } catch (error) {
