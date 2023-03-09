@@ -34,7 +34,7 @@ const MainBodySection = () => {
     );
   }
 
-  console.log(tracks[102].trackMetadata.trackUri);
+  console.log(tracks[123].trackMetadata);
   console.log(tracks);
 
   return (
@@ -46,7 +46,11 @@ const MainBodySection = () => {
           {tracks.map(
             (
               track: {
-                trackMetadata: { displayImageUri: string; trackName: string };
+                trackMetadata: {
+                  displayImageUri: string;
+                  trackName: string;
+                  trackUri: string;
+                };
               },
               index: number
             ) => (
@@ -54,6 +58,7 @@ const MainBodySection = () => {
                 key={index}
                 image={track?.trackMetadata?.displayImageUri}
                 title={track?.trackMetadata?.trackName}
+                trackUri={track?.trackMetadata?.trackUri}
               />
             )
           )}

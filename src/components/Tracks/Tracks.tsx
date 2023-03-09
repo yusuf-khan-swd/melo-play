@@ -20,9 +20,10 @@ import { NavLink, useLocation } from "react-router-dom";
 type Props = {
   image: string;
   title: string;
+  trackUri: string;
 };
 
-const Tracks = ({ image, title }: Props) => {
+const Tracks = ({ image, title, trackUri }: Props) => {
   const [addedToFavorite, setAddedToFavorite] = useState(false);
   const [addedToPlaylist, setAddedPlaylist] = useState(false);
   const { setFavoriteMusics, setPlaylistMusics } = useMusics();
@@ -48,9 +49,11 @@ const Tracks = ({ image, title }: Props) => {
     setPlaylistMusics((prev: []) => [...prev, playlistItem]);
   };
 
+  const trackId = trackUri.split("spotify:track:")[1];
+
   return (
     <TrackCard>
-      <NavLink to={`/details/${title}`}>
+      <NavLink to={`/details/${trackId}`}>
         <TrackImageContainer>
           <TrackImage src={image} alt="cover-art" />
         </TrackImageContainer>
