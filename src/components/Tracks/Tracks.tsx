@@ -15,7 +15,7 @@ import {
 
 import horse from "../../assets/horse.mp3";
 import { useMusics } from "../../context/MusicProvider";
-import { useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 type Props = {
   image: string;
@@ -50,13 +50,14 @@ const Tracks = ({ image, title }: Props) => {
 
   return (
     <TrackCard>
-      <TrackImageContainer>
-        <TrackImage src={image} alt="cover-art" />
-      </TrackImageContainer>
-      <TracksBody>
-        <TrackTitle>{title}</TrackTitle>
-      </TracksBody>
-
+      <NavLink to={`/details/${title}`}>
+        <TrackImageContainer>
+          <TrackImage src={image} alt="cover-art" />
+        </TrackImageContainer>
+        <TracksBody>
+          <TrackTitle>{title}</TrackTitle>
+        </TracksBody>
+      </NavLink>
       <CardActionContainer>
         {!pathname.includes("favorite") && (
           <FavoriteIcon onClick={() => addToFavorite(image, title)}>

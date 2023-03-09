@@ -27,6 +27,10 @@ export const TrackCard = styled.div`
   border-radius: 8px;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
   position: relative;
+
+  a {
+    text-decoration: none;
+  }
 `;
 
 export const TrackImageContainer = styled.div``;
