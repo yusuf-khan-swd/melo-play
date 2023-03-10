@@ -11,7 +11,7 @@ const Details = () => {
   const { id } = useParams();
   const { pathname } = useLocation();
   const [isDataLoading, setIsDataLoading] = useState(false);
-  const [track, setTrack] = useState({ album: { uri: "" } });
+  const [track, setTrack] = useState({ album: { uri: "", images: [] } });
 
   const options = {
     method: "GET",
