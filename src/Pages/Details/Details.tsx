@@ -7,11 +7,24 @@ import {
   SpinnerScreenCenter,
 } from "../../styles/SpinnerStyles";
 
+interface TrackProps {
+  album: {
+    uri: string;
+    images: Images;
+  };
+  name: string;
+  preview_url: string;
+}
+
+interface Images {
+  [index: number]: { url: string };
+}
+
 const Details = () => {
   const { id } = useParams();
   const { pathname } = useLocation();
   const [isDataLoading, setIsDataLoading] = useState(false);
-  const [track, setTrack] = useState({ album: { uri: "", images: [] } });
+  const [track, setTrack] = useState<TrackProps>();
 
   const options = {
     method: "GET",
@@ -52,7 +65,7 @@ const Details = () => {
   if (pathname.includes("album")) {
     albumUri = id;
   } else if (pathname.includes("track")) {
-    albumUri = track.album.uri.split("spotify:album:")[1];
+    albumUri = track?.album?.uri.split("spotify:album:")[1];
   }
 
   console.log(track);
@@ -60,9 +73,16 @@ const Details = () => {
 
   console.log({ albumUri: albumUri });
 
+  console.log(track?.name);
+  console.log(track?.album?.images[0]?.url);
+  console.log(track?.preview_url);
+
   return (
     <MainBodyContainer>
       <h2>This is details page for ID: {albumUri}</h2>
+      <img src={track?.album?.images[1]?.url} alt="" />
+      <p>{track?.name}</p>
+      <audio src={track?.preview_url} controls></audio>
     </MainBodyContainer>
   );
 };
