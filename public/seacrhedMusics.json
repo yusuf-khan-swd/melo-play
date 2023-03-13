@@ -1,0 +1,4137 @@
+{
+  "albums": {
+    "totalCount": 389,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:album:0qMwROWsV0fT5hBqkH1per",
+          "name": "BABYDOLL (Speed)",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:25jJ6vyXwTRa0e6XCcdR6U",
+                "profile": {
+                  "name": "Ari Abdul"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e022f8e03f94d0f06626ee0c40f",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048512f8e03f94d0f06626ee0c40f",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2732f8e03f94d0f06626ee0c40f",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2022
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:0jCuKxy96iDfx9JtXKRyXe",
+          "name": "Babylon (Music from the Motion Picture)",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:2snm3HmsnDUDxbIChdl2Oj",
+                "profile": {
+                  "name": "Justin Hurwitz"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02acd28a9526af107157d8ea90",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851acd28a9526af107157d8ea90",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273acd28a9526af107157d8ea90",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2022
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:06SuoEMTpd5PGRVwuIpETC",
+          "name": "Baby Girl",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:5Kmr0b3ip8g9P2i0dLTC3Z",
+                "profile": {
+                  "name": "Disco Lines"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0245e61dc802ecd73217eb5cfc",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485145e61dc802ecd73217eb5cfc",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27345e61dc802ecd73217eb5cfc",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2022
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:3WNxdumkSMGMJRhEgK80qx",
+          "name": "...Baby One More Time (Digital Deluxe Version)",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4",
+                "profile": {
+                  "name": "Britney Spears"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e028e49866860c25afffe2f1a02",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048518e49866860c25afffe2f1a02",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2738e49866860c25afffe2f1a02",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 1999
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:5XuBvAY640EaQpjG6XvnWy",
+          "name": "Baby",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:541FGx3Aj5vHIpwFiByjFg",
+                "profile": {
+                  "name": "Born Without Bones"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02a3f1d081e57b2ff57b31db68",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851a3f1d081e57b2ff57b31db68",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273a3f1d081e57b2ff57b31db68",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2013
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:3uPRIr3zWC1RuizWLgTMuC",
+          "name": "Baby Sleep Music",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:5AUPJRWkYNsxRWihENePtH",
+                "profile": {
+                  "name": "Lullaby Time"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02ff47803f67bbfc2f214b59e6",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851ff47803f67bbfc2f214b59e6",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273ff47803f67bbfc2f214b59e6",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2020
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:3mhj07LztP90qqKz37X1YG",
+          "name": "Baby Lullaby: Relaxing Piano Lullabies and Natural Sleep Aid for Baby Sleep Music",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:5E9Xn7QuCD3VYCuBqLxBdY",
+                "profile": {
+                  "name": "Baby Lullaby Academy"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02b11162ca9ed88437eefa6cac",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851b11162ca9ed88437eefa6cac",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273b11162ca9ed88437eefa6cac",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2015
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:0O1PJ0t69iTO5yWrIeIga0",
+          "name": "Baby On Baby",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:4r63FhuTkUYltbVAg5TQnk",
+                "profile": {
+                  "name": "DaBaby"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0274d72ebd51dd5781d5f83ffd",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485174d72ebd51dd5781d5f83ffd",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27374d72ebd51dd5781d5f83ffd",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2019
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:3r46DPIQeBQbjvjjV5mXGg",
+          "name": "The Melodic Blue",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:5SXuuuRpukkTvsLuUknva1",
+                "profile": {
+                  "name": "Baby Keem"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e021bfa23b13d0504fb90c37b39",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048511bfa23b13d0504fb90c37b39",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2731bfa23b13d0504fb90c37b39",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2021
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:5IdztduZ9UaHxZm0xDyEyA",
+          "name": "Baby",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:7IlRNXHjoOCgEAWN5qYksg",
+                "profile": {
+                  "name": "Aya Nakamura"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e020e9fe44f8053da41157eb449",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048510e9fe44f8053da41157eb449",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2730e9fe44f8053da41157eb449",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2023
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:1ecaLnHZm8kr5Eu63Xw6UU",
+          "name": "Baby",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:3tqosLbNFNekyZyO2KJ6qd",
+                "profile": {
+                  "name": "Mike Sherm"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e025aa3fbd7b52b0c7808f373f5",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048515aa3fbd7b52b0c7808f373f5",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2735aa3fbd7b52b0c7808f373f5",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2021
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:7Cw4LObzgnVqSlkuIyywtI",
+          "name": "DIE FOR MY BITCH",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:5SXuuuRpukkTvsLuUknva1",
+                "profile": {
+                  "name": "Baby Keem"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02683757f1fd40a7f7ef64bec1",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851683757f1fd40a7f7ef64bec1",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273683757f1fd40a7f7ef64bec1",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2019
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:0Pl5KLfzpUigC6phneZEK7",
+          "name": "Baby Schai (Remix)",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:3E12tRURRvPfHz0hAMCFYc",
+                "profile": {
+                  "name": "Omar Courtz"
+                }
+              },
+              {
+                "uri": "spotify:artist:1pQWsZQehhS4wavwh7Fnxd",
+                "profile": {
+                  "name": "Lenny Tavárez"
+                }
+              },
+              {
+                "uri": "spotify:artist:1TtXnWcUs0FCkaZDPGYHdf",
+                "profile": {
+                  "name": "Darell"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e022021bac48d0d4b2ead8d93c5",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048512021bac48d0d4b2ead8d93c5",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2732021bac48d0d4b2ead8d93c5",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2023
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:0ssH9wMngti9j73Rb9kcfO",
+          "name": "Baby",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:6i392l38cR3uBPF0DbNs7S",
+                "profile": {
+                  "name": "Quality Control"
+                }
+              },
+              {
+                "uri": "spotify:artist:5f7VJjfbwm532GiveGC0ZK",
+                "profile": {
+                  "name": "Lil Baby"
+                }
+              },
+              {
+                "uri": "spotify:artist:4r63FhuTkUYltbVAg5TQnk",
+                "profile": {
+                  "name": "DaBaby"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e027f14c8a139da205a3c538b97",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048517f14c8a139da205a3c538b97",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2737f14c8a139da205a3c538b97",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2019
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:album:7jS8Adg7AF8dLtv2rZ3RxR",
+          "name": "Baby",
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:15oLsNy8mZYaIukh4eDhXy",
+                "profile": {
+                  "name": "Baby Smoove"
+                }
+              }
+            ]
+          },
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0294f462b19a59c288c0b1f9dc",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485194f462b19a59c288c0b1f9dc",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27394f462b19a59c288c0b1f9dc",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "date": {
+            "year": 2019
+          }
+        }
+      }
+    ]
+  },
+  "artists": {
+    "totalCount": 27,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:artist:630wzNP2OL7fl4Xl0GnMWq",
+          "profile": {
+            "name": "BABYMETAL"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb7a669de19d4381073d85701a",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1787a669de19d4381073d85701a",
+                  "width": 160,
+                  "height": 160
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:6SXTTUJxIVwMbc1POrviTr",
+          "profile": {
+            "name": "CoComelon"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb3e5fc149e1901d1811096a53",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1783e5fc149e1901d1811096a53",
+                  "width": 160,
+                  "height": 160
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:5SXuuuRpukkTvsLuUknva1",
+          "profile": {
+            "name": "Baby Keem"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5ebd6f2323c1971fd5a70cd0255",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f178d6f2323c1971fd5a70cd0255",
+                  "width": 160,
+                  "height": 160
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:3IJ21966TwNZI24MwZHMu4",
+          "profile": {
+            "name": "Baby Tate"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb9b232ec5fe0ef3b60149c683",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1789b232ec5fe0ef3b60149c683",
+                  "width": 160,
+                  "height": 160
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:3aVoqlJOYx31lH1gibGDt3",
+          "profile": {
+            "name": "Babyface"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb0cb3db62f8e93e64357df3c9",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1780cb3db62f8e93e64357df3c9",
+                  "width": 160,
+                  "height": 160
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:5f7VJjfbwm532GiveGC0ZK",
+          "profile": {
+            "name": "Lil Baby"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb6cad3eff5adc29e20f189a6c",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1786cad3eff5adc29e20f189a6c",
+                  "width": 160,
+                  "height": 160
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:12PSlydMSjEHzSCj9X5qv7",
+          "profile": {
+            "name": "Baby Bash"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb0feee74aea6c89ebaae3913e",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1780feee74aea6c89ebaae3913e",
+                  "width": 160,
+                  "height": 160
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:48zEowASEXWsK6lgP1xotZ",
+          "profile": {
+            "name": "Baby Sleeps"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273237279ea995c783d8627c3f5",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851237279ea995c783d8627c3f5",
+                  "width": 64,
+                  "height": 64
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:0GgyFUpOyzWDRDqx8FCTDN",
+          "profile": {
+            "name": "Baby Rasta"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb0f73cca6e26220f7cc61d930",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1780f73cca6e26220f7cc61d930",
+                  "width": 160,
+                  "height": 160
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:0sKsReKseslDlhxmbN6wLk",
+          "profile": {
+            "name": "BabyTron"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb1ff261f69fb001b1b8a38ea2",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1781ff261f69fb001b1b8a38ea2",
+                  "width": 160,
+                  "height": 160
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:4aG0Zj4hk9yaRccFcaJuo7",
+          "profile": {
+            "name": "Baby Mouse Boo"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb1ea89adbfd6215cb1bf8a05a",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1781ea89adbfd6215cb1bf8a05a",
+                  "width": 160,
+                  "height": 160
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:15oLsNy8mZYaIukh4eDhXy",
+          "profile": {
+            "name": "Baby Smoove"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5ebb1fe973eb50132e2db4f9a82",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f178b1fe973eb50132e2db4f9a82",
+                  "width": 160,
+                  "height": 160
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:3zZ88AwlTwfCJkowsFCvLA",
+          "profile": {
+            "name": "Babyface Ray"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb1949f1bd5c1a2804793ba73e",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1781949f1bd5c1a2804793ba73e",
+                  "width": 160,
+                  "height": 160
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:5E9Xn7QuCD3VYCuBqLxBdY",
+          "profile": {
+            "name": "Baby Lullaby Academy"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273b11162ca9ed88437eefa6cac",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851b11162ca9ed88437eefa6cac",
+                  "width": 64,
+                  "height": 64
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:artist:4Q7FV4mw6Q3va79JwftGRv",
+          "profile": {
+            "name": "BabyDrill"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb8c5815a80fb29d3207b23dc6",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1788c5815a80fb29d3207b23dc6",
+                  "width": 160,
+                  "height": 160
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "episodes": {
+    "totalCount": 1000,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:episode:5Zhp5qedEnaQehmavDd55X",
+          "name": "Music to sleep babies in 5 minutes maternal womb sound to reassure.",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d5a69acc3e89baf062bcbc9b6",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f5a69acc3e89baf062bcbc9b6",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a5a69acc3e89baf062bcbc9b6",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 2100639
+          },
+          "releaseDate": {
+            "isoString": "2022-06-25T21:00:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:56DYe3JlrV1hYWfl7INw6j",
+            "name": "Cambia Tu Mente Y Podrás Cambiar Tu Vida",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/efa13d7a3dd61de58fa589bafc9e08321afc4d93",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/14b791f3f6860e39b12693f5d0485ade8f179fe5",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/49054e664631ed173b0cf54128a741ada675dcec",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Aury Shávez Gálvez"
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "Music to calm the baby, sleep, numb, relax. Relaxing sound, womb sound, heartbeat and soft notes. Tested and approved by fathers and mothers. It works with 100% of babies. I hope you liked it.  The more you give the more you receive is a way to generate abundance. Your donation of 5 dollars will help me continue my work and keep this channel open. https://paypal.me/feraury?locale.x=es_XC The more you give the more you receive Infinite thanks for your contribution to this potdcas Only by this means  ---   Support this podcast: https://anchor.fm/aury-shavez-galvez/support",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:4RvbnpNgF1JVeCIvfVNgWK",
+          "name": "Baby Sleep Rain Sounds White Noise 8 Hours | Soothe Colicky Infant",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d4733c7e46a045caa21cb5cee",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f4733c7e46a045caa21cb5cee",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a4733c7e46a045caa21cb5cee",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 28814200
+          },
+          "releaseDate": {
+            "isoString": "2023-01-18T02:15:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:2bAmrw0xKnOhOx4hqSL7vF",
+            "name": "Relaxing White Noise",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dda07bbb290307f3eefe09052",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fda07bbb290307f3eefe09052",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ada07bbb290307f3eefe09052",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Relaxing White Noise, LLC"
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "The sound of rain is a peaceful ambience that can help soothe a crying, colicky baby. This natural white noise is 8 hours to help a baby fall asleep and remain sleeping all night long. Parents can use this sound masking tool to block out distracting noise that might otherwise wake a baby from their sleep. When a baby is fussy, crying, suffering from colic or not sleeping well, play this soothing white noise and watch them quickly settle down. Bring peace to your infant and to your household with this relaxing baby sleep sound. White noise resembles sounds the baby heard in the womb, which has a calming effect. It is safe for infants and young children. You can learn more about this here. While playing white noise for babies, it’s important to keep tabs on the volume, because any white noise machine, smartphone, or computer can put out levels that are too loud for your child. It's recommended to play the sound at least a few feet from where your infant is sleeping and to keep the volume no louder than the sound of a soft shower. Parents can download an app to turn their smartphone into a sound level meter. One good, free, option is the sound level meter app created by the U.S. National Institutes for Occupational Safety and Health (NIOSH) available on the app store as the NIOSH SLM app. Here are some great products to help you sleep! Relaxing White Noise receives a small commission (at no additional cost to you) on purchases made through affiliate links. Thanks for supporting the podcast! Baloo Living Weighted Blankets (Use code 'relaxingwhitenoise10' for 10% off) At Relaxing White Noise, our goal is to help you sleep well. This episode is eight hours long with no advertisements in the middle, so you can use it as a sleeping sound throughout the night. Listening to our white noise sounds via the podcast gives you the freedom to lock your phone at night, keeping your bedroom dark as you fall asleep. Check out the 10-Hour version on YouTube Contact Us for Partnership Inquiries DISCLAIMER: Remember that loud sounds can potentially damage your hearing. When playing one of our ambiences, if you cannot have a conversation over the sound without raising your voice, the sound may be too loud for your ears. Please do not place speakers right next to a baby’s ears. If you have difficulty hearing or hear ringing in your ears, please immediately discontinue listening to the white noise sounds and consult an audiologist or your physician. The sounds provided by Relaxing White Noise are for entertainment purposes only and are not a treatment for sleep disorders or tinnitus. If you have significant difficulty sleeping on a regular basis, experience fitful/restless sleep, or feel tired during the day, please consult your physician. Relaxing White Noise Privacy Policy © Relaxing White Noise LLC, 2019. All rights reserved. Any reproduction or republication of all or part of this text/visual/audio is prohibited.",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:0JpUoFN3Q9EQV2KPFtuS2c",
+          "name": "When Blaming it on the Baby is a Good Idea - Sharon Kinne",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d4a89f95450f843868eac550f",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f4a89f95450f843868eac550f",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a4a89f95450f843868eac550f",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 2455954
+          },
+          "releaseDate": {
+            "isoString": "2023-03-07T08:15:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:615iXBRDJi3MVoO4cC7Fmq",
+            "name": "Murder, Mystery & Makeup",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d4a89f95450f843868eac550f",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f4a89f95450f843868eac550f",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a4a89f95450f843868eac550f",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Audioboom Studios"
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "Hi Friends!   Todays story blew my mind, Sharon Sharon SHARONNNN!! You crazy azz lady….   Love you so much and please be safe out there! Hope to be seeing you very soon x o Bailey Sarian  Watch the original video here and don't forget to subscribe to my YouTube @BaileySarian!  Tik Tok : https://bit.ly/3e3jL9v Instagram : http://bit.ly/2nbO4PR Facebook : http://bit.ly/2mdZtK6 Twitter : http://bit.ly/2yT4BLV Pinterest : http://bit.ly/2mVpXnY Youtube : http://bit.ly/1HGw3Og Snapchat : https://bit.ly/3cC0V9d Discord: https://discord.gg/BaileySarian ",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:47RIxs8VjbFAIxNrbQwz0l",
+          "name": "Bob's Baby",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d70cc9cbaa74ada843d4b80cc",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f70cc9cbaa74ada843d4b80cc",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a70cc9cbaa74ada843d4b80cc",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 5112946
+          },
+          "releaseDate": {
+            "isoString": "2023-01-23T06:02:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:2X40qLyoj1wQ2qE5FVpA7x",
+            "name": "Distractible",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d70cc9cbaa74ada843d4b80cc",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f70cc9cbaa74ada843d4b80cc",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a70cc9cbaa74ada843d4b80cc",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Distractible"
+            },
+            "mediaType": "MIXED"
+          },
+          "description": "Bob recounts the unexpected and emotionally taxing circumstances surrounding his new son's birth. Listener discretion advised (pregnancy complications, surgery, hospitals, postpartum panic/anxiety, etc...). Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+          "contentRating": {
+            "label": "EXPLICIT"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:108tkyQOYdSWp19NcRPxVy",
+          "name": "Honest (sped up) - Baby Keem",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d4de0fbeee887a1a3e4caf3be",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f4de0fbeee887a1a3e4caf3be",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a4de0fbeee887a1a3e4caf3be",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 131496
+          },
+          "releaseDate": {
+            "isoString": "2022-07-23T08:43:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:5jFMNvJbrCe62eagmIj2bF",
+            "name": ".",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d3a60d545444a9d6ff04b294e",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f3a60d545444a9d6ff04b294e",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a3a60d545444a9d6ff04b294e",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": ".."
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "cool song ig",
+          "contentRating": {
+            "label": "EXPLICIT"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:7GBrGU3wDsXbqa03b7aylz",
+          "name": "Our Due Date, Breastfeeding While pregnant & Baby Names",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d7e07bef49379d3da44afb48c",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f7e07bef49379d3da44afb48c",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a7e07bef49379d3da44afb48c",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 3066122
+          },
+          "releaseDate": {
+            "isoString": "2023-02-22T17:00:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:1ToDA4ufQuWuEgMq07zN6t",
+            "name": "The Unplanned Podcast",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d7e07bef49379d3da44afb48c",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f7e07bef49379d3da44afb48c",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a7e07bef49379d3da44afb48c",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Matt & Abby"
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "Our first Q&A episode!! In this episode, we answer all of your questions about our new pregnancy ranging from the due date, baby names, and our general plans for this pregnancy and birth. Make sure to rate our podcast and leave a review if you can, it really helps us out!",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:0tw9MAQ1RHRaQQ0Ih8M7Ng",
+          "name": "Baby Sleep White Noise 8 Hours | Womb Sounds Soothe Crying, Colicky Infant",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68ddfc7a10a99ef95dd478968db",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1fdfc7a10a99ef95dd478968db",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8adfc7a10a99ef95dd478968db",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 28818448
+          },
+          "releaseDate": {
+            "isoString": "2021-11-12T17:28:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:2bAmrw0xKnOhOx4hqSL7vF",
+            "name": "Relaxing White Noise",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dda07bbb290307f3eefe09052",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fda07bbb290307f3eefe09052",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ada07bbb290307f3eefe09052",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Relaxing White Noise, LLC"
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "For your baby that won't stop crying and won't sleep, here's what you've been looking for. This is a mixture of white noise and womb sounds to help a colicky newborn calm down, fall asleep and stay asleep. You'll be surprised by how fast it works. White noise creates a peaceful environment for your infant that mimics the sounds of the womb. It may help them cry less while lulling them to sleep - and it will help YOU get some rest! Baby white noise is an effective way to soothe a crying infant and lull your newborn to sleep. White noise resembles sounds the baby heard in the womb, which has a calming effect. It also masks other distracting noises so that your baby can fall asleep and remain sleeping. While playing white noise for babies, it’s important to keep tabs on the volume, because any white noise machine, smartphone, or computer can put out levels that are too loud for your child. It's recommended to play the sound at least a few feet from where your infant is sleeping and to keep the volume no louder than the sound of a soft shower. Parents can download an app to turn their smartphone into a sound level meter. One good, free, option is the sound level meter app created by the U.S. National Institutes for Occupational Safety and Health (NIOSH) available on the app store as the NIOSH SLM app. Here are some great products to help you sleep! Relaxing White Noise receives a small commission (at no additional cost to you) on purchases made through affiliate links. Thanks for supporting the podcast! Baloo Living Weighted Blankets (Use code 'relaxingwhitenoise10' for 10% off) Listening to our white noise sounds via the podcast gives you the freedom to lock your phone at night, keeping your bedroom dark as you fall asleep. Check out the 10-Hour version on YouTube Contact Us for Partnership Inquiries Relaxing White Noise is the number one online destination for white noise and nature sounds to help you sleep, study or soothe a baby. With more than a billion views across YouTube and other platforms, we are excited to now share our popular ambient tracks on the Relaxing White Noise podcast. People use white noise for sleeping, focus, sound masking or relaxation. We couldn't be happier to help folks live better lives! DISCLAIMER: Remember that loud sounds can potentially damage your hearing. When playing one of our ambiences, if you cannot have a conversation over the sound without raising your voice, the sound may be too loud for your ears. Please do not place speakers right next to a baby’s ears. If you have difficulty hearing or hear ringing in your ears, please immediately discontinue listening to the white noise sounds and consult an audiologist or your physician. The sounds provided by Relaxing White Noise are for entertainment purposes only and are not a treatment for sleep disorders or tinnitus. If you have significant difficulty sleeping on a regular basis, experience fitful/restless sleep, or feel tired during the day, please consult your physician. Relaxing White Noise Privacy Policy © Relaxing White Noise LLC, 2015. All rights reserved. Any reproduction or republication of all or part of this text/visual/audio is prohibited.",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:6zIXxxDSn7WWb8d2gh0R7m",
+          "name": "A Cowboys Collapse, Burrow’s Big Day, Buffalo’s Big Mistake, and a Baby Doll Cameo With Cousin Sal",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d4861ae328cd5834682f56bd7",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f4861ae328cd5834682f56bd7",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a4861ae328cd5834682f56bd7",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 5523278
+          },
+          "releaseDate": {
+            "isoString": "2023-01-23T05:47:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:07SjDmKb9iliEzpNcN2xGD",
+            "name": "The Bill Simmons Podcast",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d4861ae328cd5834682f56bd7",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f4861ae328cd5834682f56bd7",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a4861ae328cd5834682f56bd7",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "The Ringer"
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "The Ringer's Bill Simmons is joined by Cousin Sal to discuss the Cowboys scoring only 12 points in their loss to the 49ers, the Eagles' blowout win over the Giants, the Bengals' impressive win over the Bills, and Chiefs-Jaguars (1:27). Then, they guess the lines for the AFC and NFC championship games (51:49), followed by special guest James \"Baby Doll\" Dixon, and Parent Corner (1:03:23).Host: Bill SimmonsGuests: Cousin Sal and James DixonProducer: Kyle Crichton Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:58ZHceIGv7EX4y6KLyEHgg",
+          "name": "LDR - bbm baby",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68daabc175e689ad54d9f197d2b",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1faabc175e689ad54d9f197d2b",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8aaabc175e689ad54d9f197d2b",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 218305
+          },
+          "releaseDate": {
+            "isoString": "2022-10-29T02:45:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:1OGN8hzKqnMdkiUQACUJ3Z",
+            "name": "Ldr",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68de024aaa5d726430e0af877d6",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fe024aaa5d726430e0af877d6",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ae024aaa5d726430e0af877d6",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "zbmsh"
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "bbm baby!",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:547AFuSpem5R7L5u696otM",
+          "name": "Relaxing music to put your baby to sleep, deep sleep.",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d4666a3c0d036003c39c10534",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f4666a3c0d036003c39c10534",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a4666a3c0d036003c39c10534",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 2700720
+          },
+          "releaseDate": {
+            "isoString": "2021-05-20T18:00:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:56DYe3JlrV1hYWfl7INw6j",
+            "name": "Cambia Tu Mente Y Podrás Cambiar Tu Vida",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/efa13d7a3dd61de58fa589bafc9e08321afc4d93",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/14b791f3f6860e39b12693f5d0485ade8f179fe5",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/49054e664631ed173b0cf54128a741ada675dcec",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Aury Shávez Gálvez"
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "To make babies sleep soundly sounds of nature.  Thanks for listening to this channel. And I know that you are a generous and clear person to continue giving you the best quality, I ask you for a simple donation of one dollar to my PayPal account. Helping you help yourself. https://cutt.ly/1bLf7iQ Infinite blessings and much success.  ---   Support this podcast: https://anchor.fm/aury-shavez-galvez/support",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:1PBmkfeZNcguzt6eEG7Geh",
+          "name": "8 Hours of Relaxing Music For Your Baby: Baby Lullaby",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d8c108670eb9a4158f7aeb83c",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f8c108670eb9a4158f7aeb83c",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a8c108670eb9a4158f7aeb83c",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 3601008
+          },
+          "releaseDate": {
+            "isoString": "2021-02-17T19:16:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:7vlvqhD8aCsToKT4p0OfqB",
+            "name": "NaturalSounds",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68d8b4b6749c067e1c33644ed22",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1f8b4b6749c067e1c33644ed22",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8a8b4b6749c067e1c33644ed22",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "NaturalSounds"
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "To watch the entire episode visit: https://www.youtube.com/c/NaturalSoundsChannel  The best way to get your baby or even yourself to a deep and relaxing sleep is to listening soothing music. Playing soothing music improves sleep quality and duration. This baby lullaby will help your baby fall asleep and remain sleeping all night long.  Relaxing music to sleep, to have a deep sleep and to relieve stress. Fall asleep with wonderful videos of nature and listen to relaxing music to sleep, soft music to meditate, music to relax, to study and much more.",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:6ZJTNKJW5vhBifL9qLnWAk",
+          "name": "Colicky Baby Sleeps to this Magic Sound 8 Hours | White Noise to Soothe Crying Infant",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d75147c2bb64ce8ce67d84ec6",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f75147c2bb64ce8ce67d84ec6",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a75147c2bb64ce8ce67d84ec6",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 28814200
+          },
+          "releaseDate": {
+            "isoString": "2020-09-09T00:00:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:2bAmrw0xKnOhOx4hqSL7vF",
+            "name": "Relaxing White Noise",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68dda07bbb290307f3eefe09052",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fda07bbb290307f3eefe09052",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ada07bbb290307f3eefe09052",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Relaxing White Noise, LLC"
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "If your baby won't stop crying and nothing seems to help, you've come to the right place. This specially designed white noise soothes a colicky infant. After a few minutes, your baby will calm down and even fall asleep, giving both you and your child the rest you deserve.  White noise works so well because it imitates sounds heard in the womb, providing a comfortable atmosphere for your baby. It also masks other distracting noises so that your baby can fall asleep and remain sleeping. While playing white noise for babies, it’s important to keep tabs on the volume, because any white noise machine, smartphone, or computer can put out levels that are too loud for your child. It's recommended to play the sound at least a few feet from where your infant is sleeping and to keep the volume no louder than the sound of a soft shower. Parents can download an app to turn their smartphone into a sound level meter. One good, free, option is the sound level meter app created by the U.S. National Institutes for Occupational Safety and Health (NIOSH) available on the app store as the NIOSH SLM app. Soothe your crying baby and enjoy a moment of calm! Here are some great products to help you sleep! Relaxing White Noise receives a small commission (at no additional cost to you) on purchases made through affiliate links. Thanks for supporting the podcast! Baloo Living Weighted Blankets (Use code 'relaxingwhitenoise10' for 10% off) Listening to our white noise sounds via the podcast gives you the freedom to lock your phone at night, keeping your bedroom dark as you fall asleep. Check out the 10-Hour version on YouTube Contact Us for Partnership Inquiries  Relaxing White Noise is the number one online destination for white noise and nature sounds to help you sleep, study or soothe a baby. With more than a billion views across YouTube and other platforms, we are excited to now share our popular ambient tracks on the Relaxing White Noise podcast. People use white noise for sleeping, focus, sound masking or relaxation. We couldn't be happier to help folks live better lives. This podcast has the sound for you whether you use white noise for studying, to soothe a colicky baby, to fall asleep or for simply enjoying a peaceful moment. No need to buy a white noise machine when you can listen to these sounds for free. Cheers to living your best life! DISCLAIMER: Remember that loud sounds can potentially damage your hearing. When playing one of our ambiences, if you cannot have a conversation over the sound without raising your voice, the sound may be too loud for your ears. Please do not place speakers right next to a baby’s ears. If you have difficulty hearing or hear ringing in your ears, please immediately discontinue listening to the white noise sounds and consult an audiologist or your physician. The sounds provided by Relaxing White Noise are for entertainment purposes only and are not a treatment for sleep disorders or tinnitus. If you have significant difficulty sleeping on a regular basis, experience fitful/restless sleep, or feel tired during the day, please consult your physician. Relaxing White Noise Privacy Policy © Relaxing White Noise LLC, 2015. All rights reserved. Any reproduction or republication of all or part of this text/visual/audio is prohibited.",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:6IC42tKlGrGjOBHqmO9evc",
+          "name": "Baby Honey- Harry Styles Unreleased ",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d0aa36e0eef8536add983712b",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f0aa36e0eef8536add983712b",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a0aa36e0eef8536add983712b",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 196440
+          },
+          "releaseDate": {
+            "isoString": "2022-06-26T19:23:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:46aXf0nbHY5CkNybtVLQv3",
+            "name": " Skylee and Kylie",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68de891d82e68e4fda6f2f07d17",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fe891d82e68e4fda6f2f07d17",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ae891d82e68e4fda6f2f07d17",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Sky"
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "<3",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:1TYrNNzzSYEmYXhWGVLXrf",
+          "name": "3hrs of Lullaby Music For Your Baby, Relaxing Music",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d86dbf9e2855f4219daf36d5c",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f86dbf9e2855f4219daf36d5c",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a86dbf9e2855f4219daf36d5c",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 10856814
+          },
+          "releaseDate": {
+            "isoString": "2022-12-28T01:12:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:5o3pbQjiYB6BjAt3nuTcVx",
+            "name": "Starry Nights Podcast",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68db6ef3fc8574857da88bbec0f",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fb6ef3fc8574857da88bbec0f",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ab6ef3fc8574857da88bbec0f",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Starry Nights "
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "Enjoy! Follow Our Instagram! Instagram.com/starrynightspodcast Premium Content: https://anchor.fm/starrynightspodcast/subscribe Buy Me a Coffee https://www.buymeacoffee.com/starrynights ",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:6X8SjIB3OmbkDju4mLSOfg",
+          "name": "3hrs of Relaxing Lullaby Music For Your Baby, Relaxing Music",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68db00ad8a99f66cdbdfa2ed6b7",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1fb00ad8a99f66cdbdfa2ed6b7",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8ab00ad8a99f66cdbdfa2ed6b7",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 10885073
+          },
+          "releaseDate": {
+            "isoString": "2023-02-08T03:03:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:5o3pbQjiYB6BjAt3nuTcVx",
+            "name": "Starry Nights Podcast",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000f68db6ef3fc8574857da88bbec0f",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67656300005f1fb6ef3fc8574857da88bbec0f",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6765630000ba8ab6ef3fc8574857da88bbec0f",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Starry Nights "
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "Enjoy! Follow Our Instagram! Instagram.com/starrynightspodcast Premium Content: https://anchor.fm/starrynightspodcast/subscribe Buy Me a Coffee https://www.buymeacoffee.com/starrynights ",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      }
+    ]
+  },
+  "genres": {
+    "totalCount": 1,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:genre:0JQ5IMCbQBLsUJv75ZAsOf",
+          "name": "Canciones de cuna",
+          "image": {
+            "sources": [
+              {
+                "url": "https://t.scdn.co/images/728ed47fc1674feb95f7ac20236eb6d7.jpeg",
+                "width": 0,
+                "height": 0
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "playlists": {
+    "totalCount": 23,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:playlist:5VtbzjZIx3mPSOkLLZMt9H",
+          "name": "baby making metal music ❤️",
+          "description": "just another another sex playlist nothing to see here.. ANY OF YALL THAT LIKE THIS PLAYLIST YALL SOME FREAKS",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67706c0000da8483cef1ae74a22b5a2b5e2a83",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "van(nah)",
+            "uri": "spotify:user:jb0fhrh5xg8zrjkosmjij0u66",
+            "username": "jb0fhrh5xg8zrjkosmjij0u66"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:7wsDwbcLDNuTDtloPS1jwH",
+          "name": "Baby Shark (Trap Remix)",
+          "description": "",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67616d00001e02951b592866acc2423e68f77d",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "☾ 𝙇𝙤𝙡𝙖 ☽",
+            "uri": "spotify:user:bcaokakrxfimnj9cizlwfesjp",
+            "username": "bcaokakrxfimnj9cizlwfesjp"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:5FawOTfwS8NbtuKM4zZah6",
+          "name": "Baby Music for Brain Development",
+          "description": "Classical music and instrumental lullabies for brain development in the womb and newborn babies",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67706c0000da849ada649dea9125ad2af00d75",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Rogerio Tutti",
+            "uri": "spotify:user:rogeriotutti",
+            "username": "rogeriotutti"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:37i9dQZF1DX0DxcHtn4Hwo",
+          "name": "Baby Sleep",
+          "description": "Soothing instrumental music for sleepy babies.",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67706f000000025683edf3bef4a94327e7b050",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Spotify",
+            "uri": "spotify:user:spotify",
+            "username": "spotify"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:37i9dQZF1DXdp5bwJ1FHFe",
+          "name": "Baby Sleep Aid Rain Sounds",
+          "description": "Relaxing rain sounds for sleepy babies.",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67706f000000022be4d27116cdeff736e488bb",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Spotify",
+            "uri": "spotify:user:spotify",
+            "username": "spotify"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:1IAFz4n8Zx6yhd0MgB4E7w",
+          "name": "Baby Songs Daytime",
+          "description": "",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://mosaic.scdn.co/640/ab67616d00001e02285b22f5bf0a1d67d3769947ab67616d00001e025c4a549fdd59246017b19ea5ab67616d00001e02a4990fd4fe2cde405e8cc8acab67616d00001e02a6d31cd8a9f88173749e44a4",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://mosaic.scdn.co/300/ab67616d00001e02285b22f5bf0a1d67d3769947ab67616d00001e025c4a549fdd59246017b19ea5ab67616d00001e02a4990fd4fe2cde405e8cc8acab67616d00001e02a6d31cd8a9f88173749e44a4",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://mosaic.scdn.co/60/ab67616d00001e02285b22f5bf0a1d67d3769947ab67616d00001e025c4a549fdd59246017b19ea5ab67616d00001e02a4990fd4fe2cde405e8cc8acab67616d00001e02a6d31cd8a9f88173749e44a4",
+                    "width": 60,
+                    "height": 60
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Ray",
+            "uri": "spotify:user:2glyhlgz4oju3o8zpuuehf4ta",
+            "username": "2glyhlgz4oju3o8zpuuehf4ta"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:1fu8f6dSe4di2iRj6n0XzF",
+          "name": "Baby learning songs💜",
+          "description": "",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://mosaic.scdn.co/640/ab67616d00001e0255ec7bdd96887942a0948281ab67616d00001e02bb821140428429af1f89c674ab67616d00001e02cea731c4ba7ae774fb95dc54ab67616d00001e02f73e9ac8e2bfcd29de478a5b",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://mosaic.scdn.co/300/ab67616d00001e0255ec7bdd96887942a0948281ab67616d00001e02bb821140428429af1f89c674ab67616d00001e02cea731c4ba7ae774fb95dc54ab67616d00001e02f73e9ac8e2bfcd29de478a5b",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://mosaic.scdn.co/60/ab67616d00001e0255ec7bdd96887942a0948281ab67616d00001e02bb821140428429af1f89c674ab67616d00001e02cea731c4ba7ae774fb95dc54ab67616d00001e02f73e9ac8e2bfcd29de478a5b",
+                    "width": 60,
+                    "height": 60
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "bianicagonzales21.12",
+            "uri": "spotify:user:bianicagonzales21.12",
+            "username": "bianicagonzales21.12"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:2pu8AyEXoKLcml1Ax1s8gP",
+          "name": "Fun baby music",
+          "description": "",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://mosaic.scdn.co/640/ab67616d00001e022b15df8d3fbd301fd7c11ec1ab67616d00001e025e7bedcd37361fbd0cb7b5faab67616d00001e0286fc337533e9e5bbd36fbdcaab67616d00001e02f601843ffd0dee508311d4bb",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://mosaic.scdn.co/300/ab67616d00001e022b15df8d3fbd301fd7c11ec1ab67616d00001e025e7bedcd37361fbd0cb7b5faab67616d00001e0286fc337533e9e5bbd36fbdcaab67616d00001e02f601843ffd0dee508311d4bb",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://mosaic.scdn.co/60/ab67616d00001e022b15df8d3fbd301fd7c11ec1ab67616d00001e025e7bedcd37361fbd0cb7b5faab67616d00001e0286fc337533e9e5bbd36fbdcaab67616d00001e02f601843ffd0dee508311d4bb",
+                    "width": 60,
+                    "height": 60
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Tzvi Melamed",
+            "uri": "spotify:user:227jeu7znniueyyucjfxxdd6a",
+            "username": "227jeu7znniueyyucjfxxdd6a"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:5pRVtF306CKiFY2uKaT0BP",
+          "name": "Baby songs for the car ❤️👶",
+          "description": "",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://mosaic.scdn.co/640/ab67616d00001e0227bc049f5d573b73e4cc96efab67616d00001e024b1899123e484c034e31164eab67616d00001e02660aadbda2da6b1c2dd3d1a5ab67616d00001e02b55b962ba7996c44e25b5d98",
+                    "width": 640,
+                    "height": 640
+                  },
+                  {
+                    "url": "https://mosaic.scdn.co/300/ab67616d00001e0227bc049f5d573b73e4cc96efab67616d00001e024b1899123e484c034e31164eab67616d00001e02660aadbda2da6b1c2dd3d1a5ab67616d00001e02b55b962ba7996c44e25b5d98",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://mosaic.scdn.co/60/ab67616d00001e0227bc049f5d573b73e4cc96efab67616d00001e024b1899123e484c034e31164eab67616d00001e02660aadbda2da6b1c2dd3d1a5ab67616d00001e02b55b962ba7996c44e25b5d98",
+                    "width": 60,
+                    "height": 60
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Sydney Barnett",
+            "uri": "spotify:user:singram9",
+            "username": "singram9"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:37i9dQZF1DXby8tlLbzqaH",
+          "name": "Baby Sleep Aid: White Noise",
+          "description": "White noise to help babies fall asleep.",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67706f00000002f436f984f284edd3de7edbfb",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Spotify",
+            "uri": "spotify:user:spotify",
+            "username": "spotify"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:37i9dQZF1DX8skPjZYk8mL",
+          "name": "Sweet Lullabies",
+          "description": "Soft instrumental lullabies for the little ones.",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67706f00000002018b98a0f432ebd350779e27",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Spotify",
+            "uri": "spotify:user:spotify",
+            "username": "spotify"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:1E7e7DcvgzE2HBh7fR8oel",
+          "name": "Baby Mozart Brain Development Lullabies",
+          "description": "Put your baby to sleep faster with soft Mozart&#x27;s lullabies.",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67706c0000da84ba6f3d6abc87ae0f7f8c8a22",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Mr.Lopin",
+            "uri": "spotify:user:jbuygeilnm7onyd9ciib7xabj",
+            "username": "jbuygeilnm7onyd9ciib7xabj"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:5lsX2Eon5siX2RpQxfqoAf",
+          "name": "Baby Sleep Shhh - Best Shusher Sounds ",
+          "description": "The Perfect Settling Tool for Colicky Babies! Soothe your little ones to sleep with this collection of the best and most popular loopable, repeatable, constant Sshhh Baby Shushing White Noise on Spotify. Los mejores sonidos de silencio. Meilleurs sons Shushing. I migliori suoni di shushing. ",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67706c0000da84d9cca7cb99325101d8e90328",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Dream Supplier",
+            "uri": "spotify:user:xxkoy627947xtszbp09tlf2o8",
+            "username": "xxkoy627947xtszbp09tlf2o8"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:1OhpScPCJWW1kWP8PS2vdk",
+          "name": "Baby Lullabies: Soothing, Gentle, and Peaceful",
+          "description": "Lullabies and music for babies. Baby playlist. Piano, Disney, relaxing instrumentals. #relax #sleep #quiet #lullaby #peace #nursery #nap",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67706c0000da848d18b75c0f15c8ad50fde2e7",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Deep Sleep Walkers",
+            "uri": "spotify:user:czf4bns6xcqrsjq3kxq1dw7ii",
+            "username": "czf4bns6xcqrsjq3kxq1dw7ii"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:7cgxBqMyy3HgoaAsYgs288",
+          "name": "Hardest Babytron Tracks 🤐😵‍💫😈",
+          "description": "",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67706c0000da84438fc20aae629625f2a6f0a4",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Diaz.taylor",
+            "uri": "spotify:user:52t7fsandruwl7aijnw5737by",
+            "username": "52t7fsandruwl7aijnw5737by"
+          }
+        }
+      }
+    ]
+  },
+  "podcasts": {
+    "totalCount": 1000,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:show:6S9jAhlyZtr5dj2tqYXeJ6",
+          "name": "Let's Talk About Myths, Baby! Greek & Roman Mythology Retold",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d9451631e8bf739a4a8f104f7",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f9451631e8bf739a4a8f104f7",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a9451631e8bf739a4a8f104f7",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Liv Albert and iHeartPodcasts"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:18JVSlByKE0tVPRkYumWgJ",
+          "name": "Small Talk Baby Podcast - Let's Play With Words!",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68de72d8c39d6fdeae174634a78",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1fe72d8c39d6fdeae174634a78",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8ae72d8c39d6fdeae174634a78",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Miss Pam🌺Children's Librarian"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:5mlj3yYBoJxgYzZyUN1sm2",
+          "name": "Baby Mamas No Drama with Kail Lowry & Vee Rivera",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68dd9d58b827d8c9c07f086afc1",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1fd9d58b827d8c9c07f086afc1",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8ad9d58b827d8c9c07f086afc1",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "PodcastOne"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:0GgdDqUTS9EETuCXnRxF9o",
+          "name": "BabyBus | 宝宝巴士·睡前故事 | 4-7岁儿童",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/bd7de233627db12b27cdd2d9cbd67a09803c35a1",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/6aa75717574b779153b7d14ac3328413ed9c27a6",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/46d3910ec7da0b15178f10380264b267b4ac971c",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "BabyBus"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:0kK48l715AImMNbutfHYYG",
+          "name": "Baby, This is Keke Palmer",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d30c7ff5de28faab6bb81f66c",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f30c7ff5de28faab6bb81f66c",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a30c7ff5de28faab6bb81f66c",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Wondery"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:5MQhArSzaRak2cRmECMIAH",
+          "name": "Baby ",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/74635970bb3e14e5ebd433dadaf1ba337ebc7d48",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/c98165bdf3e82fd765c5f263c1fff6977a14dc50",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/5b8a89bd74eccd625f6e2170b69402aff0762ea4",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Callie Peterson"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:4Pt2qQeauLGCPjO3oXP5s3",
+          "name": "Baby",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/dedb9233837a2bd156474c518b57ddf0b0970cb8",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/193c4a3d1d88c356aa50c215fa2586e3f877916e",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/5e13feed1afd2a725ffea61fd72c535aa1dbe48f",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Miss D"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:32r2mrF3dqkCXWBygdIM44",
+          "name": "BABY!",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/2e87ebeaa7c4dccf469046155c0f958c7c396af6",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/d9304ae331ea323fe047ddd822f44b4b6ab5dd02",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/0fc35017513828c4b8dcb1b8beea009439ae9282",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Podcast Collective & Queer Ear"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:1mBbMuL31ABup7O7duUY9M",
+          "name": "Baby ",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/8f74a4e484f0232fd010175e34f0c334640c1442",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/4acc5a5cf55d6d6cd36d7ceed7a1c345fe8697c5",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/b057c5aae15ce3e495228cc25a6321305ef5be28",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Anil Naudiyal"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:2ENRq1TqQG1wPiGyuC7Bxa",
+          "name": "90s Baby Show",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d20b5692ff76625fe69cac060",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f20b5692ff76625fe69cac060",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a20b5692ff76625fe69cac060",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "90s Baby Show"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:50mTlRi0uwZ3P1HmT4DgaL",
+          "name": "The Babylon Bee",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/3abbf29e62b118e6a5f0556052037091d1d9d31c",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/9f39d7ed510b31ecb40025d9812f806303f3a8c8",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/9c4dd7e407efa28fcaddf0383a9187a7143bd151",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "The Babylon Bee"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:4xQjHLlr1a8BhB4ItI24C5",
+          "name": "BabyBus | 宝宝巴士·国学儿歌 | 唐诗三百首",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/0528ade18c958d6d111312866c1e30c8864b74d3",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/7a07524b399c324f091622b44ec2ef295427d0b8",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/a06fa132cb2c4cca129f2dd9d486e858c76514f9",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "BabyBus"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:2bAmrw0xKnOhOx4hqSL7vF",
+          "name": "Relaxing White Noise",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68dda07bbb290307f3eefe09052",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1fda07bbb290307f3eefe09052",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8ada07bbb290307f3eefe09052",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "Relaxing White Noise, LLC"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:1Dl6mYKwxZmrkMUunfbkMn",
+          "name": "baby loves",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d5a4fe23d14a50841e64c9b60",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f5a4fe23d14a50841e64c9b60",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a5a4fe23d14a50841e64c9b60",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "soulja"
+          },
+          "mediaType": "AUDIO"
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:show:7rb8eiXKJpg8gjmiY4yDAN",
+          "name": "12 Hour Sound Machines (no loops or fades)",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d1f50c42a16f3eb77945783f2",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f1f50c42a16f3eb77945783f2",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a1f50c42a16f3eb77945783f2",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "type": "PODCAST",
+          "publisher": {
+            "name": "12 Hour Sound Machines | Achieve Restful Sleep, Soothe a Baby, Mask Unwanted Noise, Calm Your Anxiety"
+          },
+          "mediaType": "AUDIO"
+        }
+      }
+    ]
+  },
+  "topResults": {
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:artist:630wzNP2OL7fl4Xl0GnMWq",
+          "profile": {
+            "name": "BABYMETAL"
+          },
+          "visuals": {
+            "avatarImage": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000e5eb7a669de19d4381073d85701a",
+                  "width": 640,
+                  "height": 640
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab6761610000f1787a669de19d4381073d85701a",
+                  "width": 160,
+                  "height": 160
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:3MjUtNVVq3C8Fn0MP3zhXa",
+          "id": "3MjUtNVVq3C8Fn0MP3zhXa",
+          "name": "...Baby One More Time",
+          "albumOfTrack": {
+            "uri": "spotify:album:3WNxdumkSMGMJRhEgK80qx",
+            "name": "...Baby One More Time (Digital Deluxe Version)",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e028e49866860c25afffe2f1a02",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048518e49866860c25afffe2f1a02",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2738e49866860c25afffe2f1a02",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "3WNxdumkSMGMJRhEgK80qx"
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4",
+                "profile": {
+                  "name": "Britney Spears"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 211066
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:5K3SJuYEkvvrLbzOjPyRi1",
+          "id": "5K3SJuYEkvvrLbzOjPyRi1",
+          "name": "BABYDOLL (Speed)",
+          "albumOfTrack": {
+            "uri": "spotify:album:0qMwROWsV0fT5hBqkH1per",
+            "name": "BABYDOLL (Speed)",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e022f8e03f94d0f06626ee0c40f",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048512f8e03f94d0f06626ee0c40f",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2732f8e03f94d0f06626ee0c40f",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "0qMwROWsV0fT5hBqkH1per"
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:25jJ6vyXwTRa0e6XCcdR6U",
+                "profile": {
+                  "name": "Ari Abdul"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "EXPLICIT"
+          },
+          "duration": {
+            "totalMilliseconds": 156650
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:episode:5Zhp5qedEnaQehmavDd55X",
+          "name": "Music to sleep babies in 5 minutes maternal womb sound to reassure.",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6765630000f68d5a69acc3e89baf062bcbc9b6",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67656300005f1f5a69acc3e89baf062bcbc9b6",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6765630000ba8a5a69acc3e89baf062bcbc9b6",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "duration": {
+            "totalMilliseconds": 2100639
+          },
+          "releaseDate": {
+            "isoString": "2022-06-25T21:00:00Z",
+            "precision": "MINUTE"
+          },
+          "podcast": {
+            "uri": "spotify:show:56DYe3JlrV1hYWfl7INw6j",
+            "name": "Cambia Tu Mente Y Podrás Cambiar Tu Vida",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/efa13d7a3dd61de58fa589bafc9e08321afc4d93",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/14b791f3f6860e39b12693f5d0485ade8f179fe5",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/49054e664631ed173b0cf54128a741ada675dcec",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "type": "PODCAST",
+            "publisher": {
+              "name": "Aury Shávez Gálvez"
+            },
+            "mediaType": "AUDIO"
+          },
+          "description": "Music to calm the baby, sleep, numb, relax. Relaxing sound, womb sound, heartbeat and soft notes. Tested and approved by fathers and mothers. It works with 100% of babies. I hope you liked it.  The more you give the more you receive is a way to generate abundance. Your donation of 5 dollars will help me continue my work and keep this channel open. https://paypal.me/feraury?locale.x=es_XC The more you give the more you receive Infinite thanks for your contribution to this potdcas Only by this means  ---   Support this podcast: https://anchor.fm/aury-shavez-galvez/support",
+          "contentRating": {
+            "label": "NONE"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:6epn3r7S14KUqlReYr77hA",
+          "id": "6epn3r7S14KUqlReYr77hA",
+          "name": "Baby",
+          "albumOfTrack": {
+            "uri": "spotify:album:3BmcYMh0KYsimWL6p2gPa9",
+            "name": "My World 2.0",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02629dc9e2e3bc20bbd7d92e4a",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851629dc9e2e3bc20bbd7d92e4a",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "3BmcYMh0KYsimWL6p2gPa9"
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s",
+                "profile": {
+                  "name": "Justin Bieber"
+                }
+              },
+              {
+                "uri": "spotify:artist:3ipn9JLAPI5GUEo4y4jcoi",
+                "profile": {
+                  "name": "Ludacris"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 214240
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      }
+    ],
+    "featured": [
+      {
+        "data": {
+          "uri": "spotify:playlist:37i9dQZF1DZ06evO3zaLjb",
+          "name": "This Is BABYMETAL",
+          "description": "This is: BABYMETAL. Sus mejores éxitos, todos en una playlist.",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://thisis-images.scdn.co/37i9dQZF1DZ06evO3zaLjb-default.jpg",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Spotify",
+            "uri": "spotify:user:spotify",
+            "username": "spotify"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:37i9dQZF1E4u7WxhywQAAB",
+          "name": "Radio de BABYMETAL",
+          "description": "",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://seeded-session-images.scdn.co/v1/img/artist/630wzNP2OL7fl4Xl0GnMWq/es",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Spotify",
+            "uri": "spotify:user:spotify",
+            "username": "spotify"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:37i9dQZF1DWWJOmJ7nRx0C",
+          "name": "Rock Hard",
+          "description": "The hardest songs, loud. Very loud. Cover: Story Of The Year",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67706f00000002c29fd2dbf882e8cf1217c713",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Spotify",
+            "uri": "spotify:user:spotify",
+            "username": "spotify"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:playlist:37i9dQZF1DWXDJDWnzE39E",
+          "name": "Heavy Queens",
+          "description": "A salute to all of the women opening up the pit. Cover: BABYMETAL",
+          "images": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/ab67706f00000002e322e491e4978ac571b7b7a9",
+                    "width": null,
+                    "height": null
+                  }
+                ]
+              }
+            ]
+          },
+          "owner": {
+            "name": "Spotify",
+            "uri": "spotify:user:spotify",
+            "username": "spotify"
+          }
+        }
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "data": {
+        "uri": "spotify:track:3MjUtNVVq3C8Fn0MP3zhXa",
+        "id": "3MjUtNVVq3C8Fn0MP3zhXa",
+        "name": "...Baby One More Time",
+        "albumOfTrack": {
+          "uri": "spotify:album:3WNxdumkSMGMJRhEgK80qx",
+          "name": "...Baby One More Time (Digital Deluxe Version)",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e028e49866860c25afffe2f1a02",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048518e49866860c25afffe2f1a02",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2738e49866860c25afffe2f1a02",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "3WNxdumkSMGMJRhEgK80qx"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:26dSoYclwsYLMAKD3tpOr4",
+              "profile": {
+                "name": "Britney Spears"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "NONE"
+        },
+        "duration": {
+          "totalMilliseconds": 211066
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    },
+    {
+      "data": {
+        "uri": "spotify:track:5K3SJuYEkvvrLbzOjPyRi1",
+        "id": "5K3SJuYEkvvrLbzOjPyRi1",
+        "name": "BABYDOLL (Speed)",
+        "albumOfTrack": {
+          "uri": "spotify:album:0qMwROWsV0fT5hBqkH1per",
+          "name": "BABYDOLL (Speed)",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e022f8e03f94d0f06626ee0c40f",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048512f8e03f94d0f06626ee0c40f",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2732f8e03f94d0f06626ee0c40f",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "0qMwROWsV0fT5hBqkH1per"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:25jJ6vyXwTRa0e6XCcdR6U",
+              "profile": {
+                "name": "Ari Abdul"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "EXPLICIT"
+        },
+        "duration": {
+          "totalMilliseconds": 156650
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    },
+    {
+      "data": {
+        "uri": "spotify:track:6epn3r7S14KUqlReYr77hA",
+        "id": "6epn3r7S14KUqlReYr77hA",
+        "name": "Baby",
+        "albumOfTrack": {
+          "uri": "spotify:album:3BmcYMh0KYsimWL6p2gPa9",
+          "name": "My World 2.0",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02629dc9e2e3bc20bbd7d92e4a",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851629dc9e2e3bc20bbd7d92e4a",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273629dc9e2e3bc20bbd7d92e4a",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "3BmcYMh0KYsimWL6p2gPa9"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s",
+              "profile": {
+                "name": "Justin Bieber"
+              }
+            },
+            {
+              "uri": "spotify:artist:3ipn9JLAPI5GUEo4y4jcoi",
+              "profile": {
+                "name": "Ludacris"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "NONE"
+        },
+        "duration": {
+          "totalMilliseconds": 214240
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    },
+    {
+      "data": {
+        "uri": "spotify:track:11SynawYlFYwzk3k9VARLV",
+        "id": "11SynawYlFYwzk3k9VARLV",
+        "name": "Brooklyn Baby",
+        "albumOfTrack": {
+          "uri": "spotify:album:0xM5ya1HwAoc8ubvL5GORB",
+          "name": "Ultraviolence (Deluxe)",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02979dbbce412ed4780664cc57",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851979dbbce412ed4780664cc57",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273979dbbce412ed4780664cc57",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "0xM5ya1HwAoc8ubvL5GORB"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:00FQb4jTyendYWaN8pK0wa",
+              "profile": {
+                "name": "Lana Del Rey"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "EXPLICIT"
+        },
+        "duration": {
+          "totalMilliseconds": 351640
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    },
+    {
+      "data": {
+        "uri": "spotify:track:3GhsBdS9ulPK3KCdwHRPhG",
+        "id": "3GhsBdS9ulPK3KCdwHRPhG",
+        "name": "Nothing's Gonna Hurt You Baby",
+        "albumOfTrack": {
+          "uri": "spotify:album:6w9osZGOS8B7XWW51SBwFT",
+          "name": "I.",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e020879d25910f5f03e0927935e",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048510879d25910f5f03e0927935e",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2730879d25910f5f03e0927935e",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "6w9osZGOS8B7XWW51SBwFT"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:1QAJqy2dA3ihHBFIHRphZj",
+              "profile": {
+                "name": "Cigarettes After Sex"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "NONE"
+        },
+        "duration": {
+          "totalMilliseconds": 286293
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    },
+    {
+      "data": {
+        "uri": "spotify:track:5ygDXis42ncn6kYG14lEVG",
+        "id": "5ygDXis42ncn6kYG14lEVG",
+        "name": "Baby Shark",
+        "albumOfTrack": {
+          "uri": "spotify:album:1S7mumn7D4riEX2gVWYgPO",
+          "name": "Pinkfong Animal Songs",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0211723f2867f29b2134ae47e4",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485111723f2867f29b2134ae47e4",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27311723f2867f29b2134ae47e4",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "1S7mumn7D4riEX2gVWYgPO"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:7cTXfwpe9peK0UE1bZyIWZ",
+              "profile": {
+                "name": "Pinkfong"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "NONE"
+        },
+        "duration": {
+          "totalMilliseconds": 80927
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    },
+    {
+      "data": {
+        "uri": "spotify:track:1SAkL1mYNJlaqnBQxVZrRl",
+        "id": "1SAkL1mYNJlaqnBQxVZrRl",
+        "name": "Baby Got Back",
+        "albumOfTrack": {
+          "uri": "spotify:album:6c62jxWCe2aisIudaDRcaP",
+          "name": "Mack Daddy",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02f82c7e4376cf8267fb396b7d",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851f82c7e4376cf8267fb396b7d",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273f82c7e4376cf8267fb396b7d",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "6c62jxWCe2aisIudaDRcaP"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:3TQ9JTBI2n2hfo7aRONEYV",
+              "profile": {
+                "name": "Sir Mix-A-Lot"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "EXPLICIT"
+        },
+        "duration": {
+          "totalMilliseconds": 262826
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    },
+    {
+      "data": {
+        "uri": "spotify:track:2cSdAkzAf2T4j4aLvx4LLz",
+        "id": "2cSdAkzAf2T4j4aLvx4LLz",
+        "name": "Baby Girl",
+        "albumOfTrack": {
+          "uri": "spotify:album:06SuoEMTpd5PGRVwuIpETC",
+          "name": "Baby Girl",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0245e61dc802ecd73217eb5cfc",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485145e61dc802ecd73217eb5cfc",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27345e61dc802ecd73217eb5cfc",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "06SuoEMTpd5PGRVwuIpETC"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:5Kmr0b3ip8g9P2i0dLTC3Z",
+              "profile": {
+                "name": "Disco Lines"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "NONE"
+        },
+        "duration": {
+          "totalMilliseconds": 111074
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    },
+    {
+      "data": {
+        "uri": "spotify:track:7aVKQJZwdqyEPkvKSyEuxj",
+        "id": "7aVKQJZwdqyEPkvKSyEuxj",
+        "name": "Baby",
+        "albumOfTrack": {
+          "uri": "spotify:album:4hTM8jZ8DCCqglmZUDMSPz",
+          "name": "Last Day Of Summer",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02fb023e6073e38a52082cc7b6",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851fb023e6073e38a52082cc7b6",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273fb023e6073e38a52082cc7b6",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "4hTM8jZ8DCCqglmZUDMSPz"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:57LYzLEk2LcFghVwuWbcuS",
+              "profile": {
+                "name": "Summer Walker"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "NONE"
+        },
+        "duration": {
+          "totalMilliseconds": 88186
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    },
+    {
+      "data": {
+        "uri": "spotify:track:0JpexR4X82horswlU2LFsq",
+        "id": "0JpexR4X82horswlU2LFsq",
+        "name": "Baby",
+        "albumOfTrack": {
+          "uri": "spotify:album:1ecaLnHZm8kr5Eu63Xw6UU",
+          "name": "Baby",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e025aa3fbd7b52b0c7808f373f5",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048515aa3fbd7b52b0c7808f373f5",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2735aa3fbd7b52b0c7808f373f5",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "1ecaLnHZm8kr5Eu63Xw6UU"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:3tqosLbNFNekyZyO2KJ6qd",
+              "profile": {
+                "name": "Mike Sherm"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "EXPLICIT"
+        },
+        "duration": {
+          "totalMilliseconds": 126586
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    },
+    {
+      "data": {
+        "uri": "spotify:track:5MPPttjfGap2C6j6eKcO6J",
+        "id": "5MPPttjfGap2C6j6eKcO6J",
+        "name": "Baby (Lil Baby feat. DaBaby)",
+        "albumOfTrack": {
+          "uri": "spotify:album:59zpaLOByFkJhc9D5Xqna9",
+          "name": "Quality Control: Control The Streets Volume 2",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02f5c547a4335523f10a802f94",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851f5c547a4335523f10a802f94",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273f5c547a4335523f10a802f94",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "59zpaLOByFkJhc9D5Xqna9"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:6i392l38cR3uBPF0DbNs7S",
+              "profile": {
+                "name": "Quality Control"
+              }
+            },
+            {
+              "uri": "spotify:artist:5f7VJjfbwm532GiveGC0ZK",
+              "profile": {
+                "name": "Lil Baby"
+              }
+            },
+            {
+              "uri": "spotify:artist:4r63FhuTkUYltbVAg5TQnk",
+              "profile": {
+                "name": "DaBaby"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "EXPLICIT"
+        },
+        "duration": {
+          "totalMilliseconds": 142417
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    },
+    {
+      "data": {
+        "uri": "spotify:track:7yNf9YjeO5JXUE3JEBgnYc",
+        "id": "7yNf9YjeO5JXUE3JEBgnYc",
+        "name": "Babydoll",
+        "albumOfTrack": {
+          "uri": "spotify:album:05jbNkYoEQdjVDHEHtg1gY",
+          "name": "Don't Forget About Me, Demos",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e027b1b6f41c1645af9757d5616",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048517b1b6f41c1645af9757d5616",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2737b1b6f41c1645af9757d5616",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "05jbNkYoEQdjVDHEHtg1gY"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:6USv9qhCn6zfxlBQIYJ9qs",
+              "profile": {
+                "name": "Dominic Fike"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "NONE"
+        },
+        "duration": {
+          "totalMilliseconds": 97960
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    },
+    {
+      "data": {
+        "uri": "spotify:track:7q3lcBpQwW8wqTt6tvFJbx",
+        "id": "7q3lcBpQwW8wqTt6tvFJbx",
+        "name": "Baby",
+        "albumOfTrack": {
+          "uri": "spotify:album:3uphwyNSafIhOtDAxrH7xy",
+          "name": "I Can Buy Myself Flowers",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02841cbf7ac78ac3f2d45fbd07",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851841cbf7ac78ac3f2d45fbd07",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273841cbf7ac78ac3f2d45fbd07",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "3uphwyNSafIhOtDAxrH7xy"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s",
+              "profile": {
+                "name": "Justin Bieber"
+              }
+            },
+            {
+              "uri": "spotify:artist:3ipn9JLAPI5GUEo4y4jcoi",
+              "profile": {
+                "name": "Ludacris"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "NONE"
+        },
+        "duration": {
+          "totalMilliseconds": 216613
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    },
+    {
+      "data": {
+        "uri": "spotify:track:7zQFM7bHcyMh4QQFdBkjrE",
+        "id": "7zQFM7bHcyMh4QQFdBkjrE",
+        "name": "Baby Beluga",
+        "albumOfTrack": {
+          "uri": "spotify:album:0sOARc9azSO1btKcDtM7o1",
+          "name": "Baby Beluga",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02206c58c0eb9916d4eb32c1fe",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851206c58c0eb9916d4eb32c1fe",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273206c58c0eb9916d4eb32c1fe",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "0sOARc9azSO1btKcDtM7o1"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:7oWSqrgMuIEyH9qp5nu2e5",
+              "profile": {
+                "name": "Raffi"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "NONE"
+        },
+        "duration": {
+          "totalMilliseconds": 160826
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    },
+    {
+      "data": {
+        "uri": "spotify:track:7Hij0MzGIK43J8sQsrzcdB",
+        "id": "7Hij0MzGIK43J8sQsrzcdB",
+        "name": "Baby Shark",
+        "albumOfTrack": {
+          "uri": "spotify:album:5GxnOGqSFpOsWVuDg7GRMQ",
+          "name": "Baby Shark",
+          "coverArt": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e029ef5e5c68aa90eb2f3d64901",
+                "width": 300,
+                "height": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d000048519ef5e5c68aa90eb2f3d64901",
+                "width": 64,
+                "height": 64
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b2739ef5e5c68aa90eb2f3d64901",
+                "width": 640,
+                "height": 640
+              }
+            ]
+          },
+          "id": "5GxnOGqSFpOsWVuDg7GRMQ"
+        },
+        "artists": {
+          "items": [
+            {
+              "uri": "spotify:artist:5Vjj1sZw4lyTGfbJZ9epbY",
+              "profile": {
+                "name": "RALAN STYLES"
+              }
+            }
+          ]
+        },
+        "contentRating": {
+          "label": "EXPLICIT"
+        },
+        "duration": {
+          "totalMilliseconds": 156059
+        },
+        "playability": {
+          "playable": true
+        }
+      }
+    }
+  ],
+  "users": {
+    "totalCount": 15,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:user:tinatraan",
+          "id": "tinatraan",
+          "displayName": "baby t",
+          "username": "tinatraan",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b8202336a99aa00da0f04dbaf2e",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee8502336a99aa00da0f04dbaf2e"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:vqfezzlj3m9sp0raqkgadw8x4",
+          "id": "vqfezzlj3m9sp0raqkgadw8x4",
+          "displayName": "Baby",
+          "username": "vqfezzlj3m9sp0raqkgadw8x4",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b828fca1772ffb82f72050b631b",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee858fca1772ffb82f72050b631b"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:angelobass",
+          "id": "angelobass",
+          "displayName": "Baby Aventurero",
+          "username": "angelobass",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b828c08ba8f0e603559fa1bc928",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee858c08ba8f0e603559fa1bc928"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:2voc8ksxomcxalcdzvlptwzsx",
+          "id": "2voc8ksxomcxalcdzvlptwzsx",
+          "displayName": "Baby girl Ari",
+          "username": "2voc8ksxomcxalcdzvlptwzsx",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b8209573a77112adbec5a61837f",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee8509573a77112adbec5a61837f"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:vittoblunt",
+          "id": "vittoblunt",
+          "displayName": "BABYFACEPRES",
+          "username": "vittoblunt",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b8208126f45533d5ce9a55065b5",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee8508126f45533d5ce9a55065b5"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:babymetal.spotify",
+          "id": "babymetal.spotify",
+          "displayName": "BABYMETAL",
+          "username": "babymetal.spotify",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b823b8e41aac21b7d522c92491d",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee853b8e41aac21b7d522c92491d"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:312sgoyqu7l3umqj35zhlahtv3wa",
+          "id": "312sgoyqu7l3umqj35zhlahtv3wa",
+          "displayName": "babyliya777",
+          "username": "312sgoyqu7l3umqj35zhlahtv3wa",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b8202be185b1cf7bf4fb8e1645e",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee8502be185b1cf7bf4fb8e1645e"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:teisw0oywn2jk5l4tq4tgf23o",
+          "id": "teisw0oywn2jk5l4tq4tgf23o",
+          "displayName": "Baby yoda",
+          "username": "teisw0oywn2jk5l4tq4tgf23o",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82dfe6a45af53c6b8d119c4ccc",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85dfe6a45af53c6b8d119c4ccc"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:07a4n2muyg3l3ytpq9td1r3z3",
+          "id": "07a4n2muyg3l3ytpq9td1r3z3",
+          "displayName": "babylion0325",
+          "username": "07a4n2muyg3l3ytpq9td1r3z3",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82e5edfa536a18e1a565ca9aa0",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85e5edfa536a18e1a565ca9aa0"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:3f2qewiawad60nao9n2pvk590",
+          "id": "3f2qewiawad60nao9n2pvk590",
+          "displayName": "BABY MOCHI🥺🥺💜💜",
+          "username": "3f2qewiawad60nao9n2pvk590",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b823c655d317cd9de8a68826272",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee853c655d317cd9de8a68826272"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:babylonistanbul",
+          "id": "babylonistanbul",
+          "displayName": "Babylon",
+          "username": "babylonistanbul",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82b7fe7ab24ab9cec065157a27",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85b7fe7ab24ab9cec065157a27"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:lliiwkgidlbjzu8qe3p16ajz9",
+          "id": "lliiwkgidlbjzu8qe3p16ajz9",
+          "displayName": "Baby Zyzz",
+          "username": "lliiwkgidlbjzu8qe3p16ajz9",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b8220c349e3a8cd66ab3462a1d2",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee8520c349e3a8cd66ab3462a1d2"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:12158684486",
+          "id": "12158684486",
+          "displayName": "Baby Pontello",
+          "username": "12158684486",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b82e47d657a64f3b0106454ff51",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee85e47d657a64f3b0106454ff51"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:tlvmrvy6qwbkn3g66yow3ggch",
+          "id": "tlvmrvy6qwbkn3g66yow3ggch",
+          "displayName": "BabyonBaby",
+          "username": "tlvmrvy6qwbkn3g66yow3ggch",
+          "image": {
+            "smallImageUrl": "https://i.scdn.co/image/ab67757000003b8295d60164b109fcd9981bc22c",
+            "largeImageUrl": "https://i.scdn.co/image/ab6775700000ee8595d60164b109fcd9981bc22c"
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:user:22i7flmek7tlrxokb7x2bzjui",
+          "id": "22i7flmek7tlrxokb7x2bzjui",
+          "displayName": "BABY-T",
+          "username": "22i7flmek7tlrxokb7x2bzjui",
+          "image": {
+            "smallImageUrl": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=808777829245539&height=50&width=50&ext=1681301190&hash=AeQueDC9rJT18xTFQnk",
+            "largeImageUrl": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=808777829245539&height=300&width=300&ext=1681301190&hash=AeTQWwIbd4tVq0qqLk4"
+          }
+        }
+      }
+    ]
+  }
+}
