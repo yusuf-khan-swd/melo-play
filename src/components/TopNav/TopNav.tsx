@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import {
   NavLogo,
   Login,
@@ -10,7 +11,9 @@ import {
 const TopNav = () => {
   return (
     <NavContainer>
-      <NavLogo> Melo Play </NavLogo>
+      <NavLink to={"/"}>
+        <NavLogo> Melo Play </NavLogo>
+      </NavLink>
       <LoginsContainer>
         <SignUp>Sign up</SignUp>
         <Login>Login</Login>
