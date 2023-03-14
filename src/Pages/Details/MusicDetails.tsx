@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { useLocation, useParams } from "react-router-dom";
+import { useMusics } from "../../context/MusicProvider";
 import { MainBodyContainer } from "../../styles";
 import {
   DetailsCard,
@@ -35,6 +36,7 @@ interface Sources {
 }
 
 const MusicDetails = () => {
+  const { options } = useMusics();
   const { id } = useParams();
   const { pathname } = useLocation();
   const [isDataLoading, setIsDataLoading] = useState(false);
@@ -42,14 +44,6 @@ const MusicDetails = () => {
   const [recommendAlbums, setRecommendAlbums] = useState([]);
   const [trackName, setTrackName] = useState("");
   // const trackName = track?.name.split(" ")[0];
-
-  const options = {
-    method: "GET",
-    headers: {
-      "X-RapidAPI-Key": "9c0cb3cfc5mshf2a02c9550666eep1dbb03jsn296a8bf2c6c2",
-      "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
-    },
-  };
 
   useEffect(() => {
     if (pathname.includes("track")) {

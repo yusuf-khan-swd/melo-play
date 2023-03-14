@@ -16,7 +16,7 @@ import {
 } from "../../styles/SpinnerStyles";
 import { MainBodyContainer } from "../../styles";
 
-import { MusicContext } from "../../context/MusicProvider";
+import { MusicContext, useMusics } from "../../context/MusicProvider";
 import Tracks from "../../components/Tracks/Tracks";
 import { TracksContainer } from "../../styles/TracksStyles";
 
@@ -24,7 +24,7 @@ const Search = () => {
   const [isDataLoading, setIsDataLoading] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [albums, setAlbums] = useState([]);
-  const {} = useContext(MusicContext);
+  const { options } = useMusics();
 
   const getSearchResult = (event: React.FormEvent) => {
     event.preventDefault();
@@ -32,14 +32,6 @@ const Search = () => {
     if (!searchQuery.trim()) {
       return window.alert("Please type something");
     }
-
-    const options = {
-      method: "GET",
-      headers: {
-        "X-RapidAPI-Key": "9c0cb3cfc5mshf2a02c9550666eep1dbb03jsn296a8bf2c6c2",
-        "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
-      },
-    };
 
     setIsDataLoading(true);
     fetch(
