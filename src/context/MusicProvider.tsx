@@ -19,7 +19,7 @@ const MusicProvider = ({ children }: Props) => {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "9c0cb3cfc5mshf2a02c9550666eep1dbb03jsn296a8bf2c6c2",
+      "X-RapidAPI-Key": "bdb41396f8msh87052ec67db0b5fp1f3778jsnd5145298931c",
       "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
     },
   };
