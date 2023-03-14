@@ -40,6 +40,7 @@ const MusicDetails = () => {
   const { id } = useParams();
   const { pathname } = useLocation();
   const [isDataLoading, setIsDataLoading] = useState(false);
+  const [isRecommendedLoading, setIsRecommendedLoading] = useState(false);
   const [track, setTrack] = useState<TrackProps>();
   const [recommendAlbums, setRecommendAlbums] = useState([]);
   const [trackName, setTrackName] = useState("");
@@ -49,10 +50,12 @@ const MusicDetails = () => {
     if (pathname.includes("track")) {
       setIsDataLoading(true);
       fetch(`https://spotify81.p.rapidapi.com/tracks?ids=${id}`, options)
+        // fetch("/trackDetails.json")
         .then((res) => res.json())
         .then((data) => {
+          console.log("data", data);
           setTrack(data.tracks[0]);
-          setTrackName(data.tracks[0].name);
+          setTrackName(data.tracks[0].name.split(" ")[0]);
           setIsDataLoading(false);
         })
         .catch((error) => {
@@ -65,29 +68,21 @@ const MusicDetails = () => {
 
   useEffect(() => {
     if (trackName) {
-      const options = {
-        method: "GET",
-        headers: {
-          "X-RapidAPI-Key":
-            "9c0cb3cfc5mshf2a02c9550666eep1dbb03jsn296a8bf2c6c2",
-          "X-RapidAPI-Host": "spotify81.p.rapidapi.com",
-        },
-      };
-
-      setIsDataLoading(true);
+      setIsRecommendedLoading(true);
       fetch(
         `https://spotify81.p.rapidapi.com/search?q=${trackName}&type=multi&offset=0&limit=50&numberOfTopResults=5`,
         options
       )
+        // fetch("/recommendedTracks.json")
         .then((response) => response.json())
         .then((response) => {
           console.log("response", response);
           setRecommendAlbums(response.albums.items);
-          setIsDataLoading(false);
+          setIsRecommendedLoading(false);
         })
         .catch((err) => {
           console.error(err);
-          setIsDataLoading(false);
+          setIsRecommendedLoading(false);
         });
     }
   }, [trackName]);
@@ -138,6 +133,13 @@ const MusicDetails = () => {
             controls
           ></DetailsMusicAudio>
         </DetailsCard>
+        {isRecommendedLoading && (
+          <SpinnerBackground>
+            <SpinnerScreenCenter>
+              <Spinner />
+            </SpinnerScreenCenter>
+          </SpinnerBackground>
+        )}
         {recommendAlbums?.map(
           (
             album: {
