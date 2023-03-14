@@ -4,7 +4,7 @@ import Playlist from "../../Pages/Playlist/Playlist";
 import Search from "../../Pages/Search/Search";
 import MainLayouts from "../../layouts/MainLayouts";
 import Home from "../../Pages/Home/Home";
-import Details from "../../Pages/Details/Details";
+import MusicDetails from "../../Pages/Details/MusicDetails";
 
 export const router = createBrowserRouter([
   {
@@ -33,11 +33,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/details-track/:id/",
-        element: <Details />,
+        element: <MusicDetails />,
       },
       {
         path: "/details-album/:id/",
-        element: <Details />,
+        element: <MusicDetails />,
       },
     ],
   },

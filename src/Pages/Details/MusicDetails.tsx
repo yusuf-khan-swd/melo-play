@@ -2,6 +2,16 @@ import React, { useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 import { MainBodyContainer } from "../../styles";
 import {
+  DetailsCard,
+  DetailsCardBody,
+  DetailsCardContentBody,
+  DetailsContainer,
+  DetailsImage,
+  DetailsImageContainer,
+  DetailsMusicAudio,
+  DetailsMusicName,
+} from "../../styles/MusicDetailsStyled";
+import {
   Spinner,
   SpinnerBackground,
   SpinnerScreenCenter,
@@ -20,7 +30,7 @@ interface Images {
   [index: number]: { url: string };
 }
 
-const Details = () => {
+const MusicDetails = () => {
   const { id } = useParams();
   const { pathname } = useLocation();
   const [isDataLoading, setIsDataLoading] = useState(false);
@@ -79,12 +89,24 @@ const Details = () => {
 
   return (
     <MainBodyContainer>
-      <h2>This is details page for ID: {albumUri}</h2>
-      <img src={track?.album?.images[1]?.url} alt="" />
-      <p>{track?.name}</p>
-      <audio src={track?.preview_url} controls></audio>
+      <DetailsContainer>
+        <DetailsCard>
+          <DetailsCardBody>
+            <DetailsImageContainer>
+              <DetailsImage src={track?.album?.images[1]?.url} alt="" />
+            </DetailsImageContainer>
+            <DetailsCardContentBody>
+              <DetailsMusicName>{track?.name}</DetailsMusicName>
+            </DetailsCardContentBody>
+          </DetailsCardBody>
+          <DetailsMusicAudio
+            src={track?.preview_url}
+            controls
+          ></DetailsMusicAudio>
+        </DetailsCard>
+      </DetailsContainer>
     </MainBodyContainer>
   );
 };
 
-export default Details;
+export default MusicDetails;
