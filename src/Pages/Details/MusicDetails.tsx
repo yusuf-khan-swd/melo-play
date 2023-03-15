@@ -60,8 +60,9 @@ const MusicDetails = () => {
   useEffect(() => {
     if (pathname.includes("track")) {
       setIsDataLoading(true);
-      // fetch(`https://spotify81.p.rapidapi.com/tracks?ids=${id}`, options)
-      fetch("/trackDetails.json")
+
+      // For development purpose use local file for fetch: fetch("/trackDetails.json")
+      fetch(`https://spotify81.p.rapidapi.com/tracks?ids=${id}`, options)
         .then((res) => res.json())
         .then((data) => {
           setTrack(data.tracks[0]);
@@ -78,11 +79,12 @@ const MusicDetails = () => {
   useEffect(() => {
     if (trackName) {
       setIsRecommendedLoading(true);
-      // fetch(
-      //   `https://spotify81.p.rapidapi.com/search?q=${trackName}&type=multi&offset=0&limit=50&numberOfTopResults=5`,
-      //   options
-      // )
-      fetch("/recommendedTracks.json")
+
+      // For development purpose use local file for fetch: fetch("/recommendedTracks.json")
+      fetch(
+        `https://spotify81.p.rapidapi.com/search?q=${trackName}&type=multi&offset=0&limit=50&numberOfTopResults=5`,
+        options
+      )
         .then((response) => response.json())
         .then((response) => {
           setRecommendAlbums(response.albums.items);
@@ -104,17 +106,6 @@ const MusicDetails = () => {
       </SpinnerBackground>
     );
   }
-
-  console.log("track", track);
-  // console.log(track?.album?.uri);
-
-  // console.log({ albumUri: albumUri });
-
-  // console.log(track?.name);
-  // console.log(track?.album?.images[0]?.url);
-  // console.log(track?.preview_url);
-
-  console.log("recommendAlbums", recommendAlbums);
 
   return (
     <MainBodyContainer>
