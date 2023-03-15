@@ -38,3 +38,25 @@ export const DetailsMusicAudio = styled.audio`
   margin: 20px 0;
   width: 100%;
 `;
+
+export const RecommendedContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+`;
+
+export const RecommendedCard = styled.div`
+  background-color: #3a3939;
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  cursor: pointer;
+`;
+
+export const RecommendedImageContainer = styled.div`
+  display: flex;
+`;
+
+export const RecommendedImage = styled.img`
+  border-radius: 3px;
+`;

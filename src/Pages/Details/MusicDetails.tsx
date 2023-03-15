@@ -11,6 +11,10 @@ import {
   DetailsImageContainer,
   DetailsMusicAudio,
   DetailsMusicName,
+  RecommendedCard,
+  RecommendedContainer,
+  RecommendedImage,
+  RecommendedImageContainer,
 } from "../../styles/MusicDetailsStyled";
 import {
   Spinner,
@@ -44,18 +48,16 @@ const MusicDetails = () => {
   const [track, setTrack] = useState<TrackProps>();
   const [recommendAlbums, setRecommendAlbums] = useState([]);
   const [trackName, setTrackName] = useState("");
-  // const trackName = track?.name.split(" ")[0];
 
   useEffect(() => {
     if (pathname.includes("track")) {
       setIsDataLoading(true);
-      fetch(`https://spotify81.p.rapidapi.com/tracks?ids=${id}`, options)
-        // fetch("/trackDetails.json")
+      // fetch(`https://spotify81.p.rapidapi.com/tracks?ids=${id}`, options)
+      fetch("/trackDetails.json")
         .then((res) => res.json())
         .then((data) => {
-          console.log("data", data);
           setTrack(data.tracks[0]);
-          setTrackName(data.tracks[0].name.split(" ")[0]);
+          setTrackName(data.tracks[0].name);
           setIsDataLoading(false);
         })
         .catch((error) => {
@@ -64,19 +66,17 @@ const MusicDetails = () => {
         });
     }
   }, []);
-  console.log("trackName", trackName);
 
   useEffect(() => {
     if (trackName) {
       setIsRecommendedLoading(true);
-      fetch(
-        `https://spotify81.p.rapidapi.com/search?q=${trackName}&type=multi&offset=0&limit=50&numberOfTopResults=5`,
-        options
-      )
-        // fetch("/recommendedTracks.json")
+      // fetch(
+      //   `https://spotify81.p.rapidapi.com/search?q=${trackName}&type=multi&offset=0&limit=50&numberOfTopResults=5`,
+      //   options
+      // )
+      fetch("/recommendedTracks.json")
         .then((response) => response.json())
         .then((response) => {
-          console.log("response", response);
           setRecommendAlbums(response.albums.items);
           setIsRecommendedLoading(false);
         })
@@ -105,7 +105,8 @@ const MusicDetails = () => {
   //   albumUri = track?.album?.uri.split("spotify:album:")[1];
   // }
 
-  // console.log("track", track);
+  console.log("track", track);
+  console.log(track.artists);
   // console.log(track?.album?.uri);
 
   // console.log({ albumUri: albumUri });
@@ -114,7 +115,7 @@ const MusicDetails = () => {
   // console.log(track?.album?.images[0]?.url);
   // console.log(track?.preview_url);
 
-  console.log("recommendAlbums", recommendAlbums);
+  // console.log("recommendAlbums", recommendAlbums);
 
   return (
     <MainBodyContainer>
@@ -140,22 +141,29 @@ const MusicDetails = () => {
             </SpinnerScreenCenter>
           </SpinnerBackground>
         )}
-        {recommendAlbums?.map(
-          (
-            album: {
-              data: {
-                name: string;
-                coverArt: { sources: Sources };
-              };
-            },
-            index: number
-          ) => (
-            <div key={index}>
-              <img src={album?.data?.coverArt?.sources[1]?.url} alt="" />
-              <p>{album.data.name}</p>
-            </div>
-          )
-        )}
+        <RecommendedContainer>
+          {recommendAlbums?.map(
+            (
+              album: {
+                data: {
+                  name: string;
+                  coverArt: { sources: Sources };
+                };
+              },
+              index: number
+            ) => (
+              <RecommendedCard key={index}>
+                <RecommendedImageContainer>
+                  <RecommendedImage
+                    src={album?.data?.coverArt?.sources[1]?.url}
+                    alt=""
+                  />
+                </RecommendedImageContainer>
+                {/* <p>{album.data.name.s lice(0, 20)}</p> */}
+              </RecommendedCard>
+            )
+          )}
+        </RecommendedContainer>
       </DetailsContainer>
     </MainBodyContainer>
   );
