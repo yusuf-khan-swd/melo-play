@@ -8,14 +8,15 @@ export const DetailsCard = styled.div``;
 
 export const DetailsCardBody = styled.div`
   display: flex;
-  align-items: center;
 
   @media (max-width: 760px) {
     flex-direction: column;
   }
 `;
 
-export const DetailsImageContainer = styled.div``;
+export const DetailsImageContainer = styled.div`
+  max-width: 380px;
+`;
 
 export const DetailsImage = styled.img`
   width: 100%;
@@ -34,6 +35,6 @@ export const DetailsMusicName = styled.p`
 `;
 
 export const DetailsMusicAudio = styled.audio`
-  margin-top: 20px;
+  margin: 20px 0;
   width: 100%;
 `;
