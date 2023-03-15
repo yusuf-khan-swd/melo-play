@@ -65,8 +65,14 @@ export const RecommendedCard = styled.div`
   background-color: #3a3939;
   border-radius: 8px;
   padding: 5px;
-  display: flex;
   cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+
+  @media (max-width: 760px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const RecommendedImageContainer = styled.div`
@@ -76,3 +82,11 @@ export const RecommendedImageContainer = styled.div`
 export const RecommendedImage = styled.img`
   border-radius: 3px;
 `;
+
+export const RecommendedAlbumName = styled.p`
+  margin-left: 10px;
+`;
+
+export const RecommendedAlbumArtistContainer = styled.div``;
+
+export const RecommendedAlbumArtistName = styled.p``;

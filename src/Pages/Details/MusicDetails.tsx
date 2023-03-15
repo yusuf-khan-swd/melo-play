@@ -13,11 +13,14 @@ import {
   DetailsImageContainer,
   DetailsMusicAudio,
   DetailsMusicName,
-  RecommendedCard,
   RecommendedContainer,
   RecommendedImage,
   RecommendedImageContainer,
   TrackType,
+  RecommendedCard,
+  RecommendedAlbumName,
+  RecommendedAlbumArtistContainer,
+  RecommendedAlbumArtistName,
 } from "../../styles/MusicDetailsStyled";
 import {
   Spinner,
@@ -52,6 +55,7 @@ const MusicDetails = () => {
   const [track, setTrack] = useState<TrackProps>();
   const [recommendAlbums, setRecommendAlbums] = useState([]);
   const [trackName, setTrackName] = useState("");
+  const artists = track?.artists;
 
   useEffect(() => {
     if (pathname.includes("track")) {
@@ -102,9 +106,6 @@ const MusicDetails = () => {
   }
 
   console.log("track", track);
-  console.log(track?.artists);
-
-  const artists = track?.artists;
   // console.log(track?.album?.uri);
 
   // console.log({ albumUri: albumUri });
@@ -113,7 +114,7 @@ const MusicDetails = () => {
   // console.log(track?.album?.images[0]?.url);
   // console.log(track?.preview_url);
 
-  // console.log("recommendAlbums", recommendAlbums);
+  console.log("recommendAlbums", recommendAlbums);
 
   return (
     <MainBodyContainer>
@@ -126,7 +127,6 @@ const MusicDetails = () => {
             <DetailsCardContentBody>
               <TrackType>Music</TrackType>
               <DetailsMusicName>{track?.name}</DetailsMusicName>
-
               <ArtistsContainer>
                 {artists &&
                   artists?.map((artist: { name: string }) => (
@@ -154,6 +154,8 @@ const MusicDetails = () => {
                 data: {
                   name: string;
                   coverArt: { sources: Sources };
+                  date: { year: string };
+                  artists: { items: [] };
                 };
               },
               index: number
@@ -164,8 +166,20 @@ const MusicDetails = () => {
                     src={album?.data?.coverArt?.sources[1]?.url}
                     alt=""
                   />
+                  <RecommendedAlbumName>
+                    {album.data.name.slice(0, 20)}
+                  </RecommendedAlbumName>
                 </RecommendedImageContainer>
-                {/* <p>{album.data.name.s lice(0, 20)}</p> */}
+                <RecommendedAlbumArtistContainer>
+                  {album?.data?.artists?.items?.map(
+                    (artist: { profile: { name: string } }, index: number) => (
+                      <RecommendedAlbumArtistName key={index}>
+                        {artist.profile.name}
+                      </RecommendedAlbumArtistName>
+                    )
+                  )}
+                </RecommendedAlbumArtistContainer>
+                <p>{album?.data?.date?.year}</p>
               </RecommendedCard>
             )
           )}
