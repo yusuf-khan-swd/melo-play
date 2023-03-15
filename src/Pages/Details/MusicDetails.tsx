@@ -3,6 +3,8 @@ import { useLocation, useParams } from "react-router-dom";
 import { useMusics } from "../../context/MusicProvider";
 import { MainBodyContainer } from "../../styles";
 import {
+  ArtistName,
+  ArtistsContainer,
   DetailsCard,
   DetailsCardBody,
   DetailsCardContentBody,
@@ -15,6 +17,7 @@ import {
   RecommendedContainer,
   RecommendedImage,
   RecommendedImageContainer,
+  TrackType,
 } from "../../styles/MusicDetailsStyled";
 import {
   Spinner,
@@ -22,21 +25,22 @@ import {
   SpinnerScreenCenter,
 } from "../../styles/SpinnerStyles";
 
-interface TrackProps {
-  album: {
-    uri: string;
-    images: Images;
-  };
-  name: string;
-  preview_url: string;
-}
-
 interface Images {
   [index: number]: { url: string };
 }
 
 interface Sources {
   [index: number]: { url: string };
+}
+
+interface TrackProps {
+  album: {
+    uri: string;
+    images: Images;
+  };
+  artists: [];
+  name: string;
+  preview_url: string;
 }
 
 const MusicDetails = () => {
@@ -97,16 +101,10 @@ const MusicDetails = () => {
     );
   }
 
-  // let albumUri;
-
-  // if (pathname.includes("album")) {
-  //   albumUri = id;
-  // } else if (pathname.includes("track")) {
-  //   albumUri = track?.album?.uri.split("spotify:album:")[1];
-  // }
-
   console.log("track", track);
-  console.log(track.artists);
+  console.log(track?.artists);
+
+  const artists = track?.artists;
   // console.log(track?.album?.uri);
 
   // console.log({ albumUri: albumUri });
@@ -126,7 +124,15 @@ const MusicDetails = () => {
               <DetailsImage src={track?.album?.images[1]?.url} alt="" />
             </DetailsImageContainer>
             <DetailsCardContentBody>
+              <TrackType>Music</TrackType>
               <DetailsMusicName>{track?.name}</DetailsMusicName>
+
+              <ArtistsContainer>
+                {artists &&
+                  artists?.map((artist: { name: string }) => (
+                    <ArtistName>{artist.name}</ArtistName>
+                  ))}
+              </ArtistsContainer>
             </DetailsCardContentBody>
           </DetailsCardBody>
           <DetailsMusicAudio

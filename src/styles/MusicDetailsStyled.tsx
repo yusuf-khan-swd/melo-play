@@ -15,7 +15,7 @@ export const DetailsCardBody = styled.div`
 `;
 
 export const DetailsImageContainer = styled.div`
-  max-width: 380px;
+  max-width: 350px;
 `;
 
 export const DetailsImage = styled.img`
@@ -23,15 +23,31 @@ export const DetailsImage = styled.img`
 `;
 
 export const DetailsCardContentBody = styled.div`
-  margin-left: 10px;
+  margin-left: 20px;
+
+  @media (max-width: 760px) {
+    margin-left: 0;
+    margin: 10px 0;
+  }
+`;
+
+export const TrackType = styled.p`
+  font-size: 14px;
 `;
 
 export const DetailsMusicName = styled.p`
   font: 500 50px "Poppins";
 
   @media (max-width: 760px) {
-    font-size: 18px;
+    font-size: 20px;
   }
+`;
+
+export const ArtistsContainer = styled.div``;
+
+export const ArtistName = styled.p`
+  font-size: 14px;
+  margin: 5px 0;
 `;
 
 export const DetailsMusicAudio = styled.audio`
