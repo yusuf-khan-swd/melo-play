@@ -15,7 +15,7 @@ export const DetailsCardBody = styled.div`
 `;
 
 export const DetailsImageContainer = styled.div`
-  max-width: 350px;
+  max-width: 320px;
 `;
 
 export const DetailsImage = styled.img`
@@ -24,6 +24,10 @@ export const DetailsImage = styled.img`
 
 export const DetailsCardContentBody = styled.div`
   margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 260px;
 
   @media (max-width: 760px) {
     margin-left: 0;
@@ -31,28 +35,40 @@ export const DetailsCardContentBody = styled.div`
   }
 `;
 
-export const TrackType = styled.p`
-  font-size: 14px;
-`;
+export const ArtistAndMusicNameContainer = styled.div``;
 
-export const DetailsMusicName = styled.p`
-  font: 500 50px "Poppins";
+export const MusicName = styled.p`
+  font: 500 45px "Poppins";
 
   @media (max-width: 760px) {
     font-size: 20px;
   }
 `;
 
-export const ArtistsContainer = styled.div``;
+export const ArtistsContainer = styled.ul`
+  margin-left: 15px;
+  list-style-type: none;
+`;
 
-export const ArtistName = styled.p`
+export const CastTitle = styled.p`
+  margin: 8px 0;
+`;
+
+export const ArtistName = styled.li`
   font-size: 14px;
   margin: 5px 0;
 `;
 
+export const ActionContainer = styled.div``;
+
+export const FavoriteIconDetails = styled.div`
+  cursor: pointer;
+  display: grid;
+  align-content: center;
+`;
+
 export const DetailsMusicAudio = styled.audio`
-  margin: 20px 0;
-  width: 100%;
+  margin: 20px 0 30px 0;
 `;
 
 export const RecommendedContainer = styled.div`
@@ -77,6 +93,7 @@ export const RecommendedCard = styled.div`
 
 export const RecommendedImageContainer = styled.div`
   display: flex;
+  align-items: center;
 `;
 
 export const RecommendedImage = styled.img`

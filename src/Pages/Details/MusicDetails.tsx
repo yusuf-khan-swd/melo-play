@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useContext } from "react";
+import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import { useLocation, useParams } from "react-router-dom";
 import { useMusics } from "../../context/MusicProvider";
 import { MainBodyContainer } from "../../styles";
@@ -12,15 +13,18 @@ import {
   DetailsImage,
   DetailsImageContainer,
   DetailsMusicAudio,
-  DetailsMusicName,
+  MusicName,
   RecommendedContainer,
   RecommendedImage,
   RecommendedImageContainer,
-  TrackType,
   RecommendedCard,
   RecommendedAlbumName,
   RecommendedAlbumArtistContainer,
   RecommendedAlbumArtistName,
+  FavoriteIconDetails,
+  CastTitle,
+  ArtistAndMusicNameContainer,
+  ActionContainer,
 } from "../../styles/MusicDetailsStyled";
 import {
   Spinner,
@@ -55,13 +59,16 @@ const MusicDetails = () => {
   const [track, setTrack] = useState<TrackProps>();
   const [recommendAlbums, setRecommendAlbums] = useState([]);
   const [trackName, setTrackName] = useState("");
+  const [addedToFavorite, setAddedToFavorite] = useState(false);
   const artists = track?.artists;
+  const trackImageUrl = track?.album?.images[1]?.url;
+  const trackTitle = track?.name;
 
   useEffect(() => {
     if (pathname.includes("track")) {
       setIsDataLoading(true);
 
-      // For development purpose use local file for fetch: fetch("/trackDetails.json")
+      // For development purpose use fetch on local file : fetch("/trackDetails.json")
       fetch(`https://spotify81.p.rapidapi.com/tracks?ids=${id}`, options)
         .then((res) => res.json())
         .then((data) => {
@@ -80,7 +87,7 @@ const MusicDetails = () => {
     if (trackName) {
       setIsRecommendedLoading(true);
 
-      // For development purpose use local file for fetch: fetch("/recommendedTracks.json")
+      // For development purpose use fetch on local file: fetch("/recommendedTracks.json")
       fetch(
         `https://spotify81.p.rapidapi.com/search?q=${trackName}&type=multi&offset=0&limit=50&numberOfTopResults=5`,
         options
@@ -107,23 +114,43 @@ const MusicDetails = () => {
     );
   }
 
+  const addToFavorite = (imageUrl: string, title: string) => {
+    const favoriteItem = {
+      imageUrl,
+      title,
+    };
+
+    setAddedToFavorite((prev) => !prev);
+  };
+
   return (
     <MainBodyContainer>
       <DetailsContainer>
         <DetailsCard>
           <DetailsCardBody>
             <DetailsImageContainer>
-              <DetailsImage src={track?.album?.images[1]?.url} alt="" />
+              <DetailsImage src={trackImageUrl} alt="" />
             </DetailsImageContainer>
             <DetailsCardContentBody>
-              <TrackType>Music</TrackType>
-              <DetailsMusicName>{track?.name}</DetailsMusicName>
-              <ArtistsContainer>
-                {artists &&
-                  artists?.map((artist: { name: string }) => (
-                    <ArtistName>{artist.name}</ArtistName>
-                  ))}
-              </ArtistsContainer>
+              <ArtistAndMusicNameContainer>
+                <MusicName>{trackTitle}</MusicName>
+                <CastTitle>Cast:</CastTitle>
+                <ArtistsContainer>
+                  {artists &&
+                    artists?.map((artist: { name: string }, index: number) => (
+                      <ArtistName key={index}>{artist.name}</ArtistName>
+                    ))}
+                </ArtistsContainer>
+              </ArtistAndMusicNameContainer>
+              <ActionContainer>
+                <FavoriteIconDetails onClick={() => addToFavorite("", "")}>
+                  {!addedToFavorite ? (
+                    <AiOutlineHeart size={35} fill="white" />
+                  ) : (
+                    <AiFillHeart size={35} fill="gray" />
+                  )}
+                </FavoriteIconDetails>
+              </ActionContainer>
             </DetailsCardContentBody>
           </DetailsCardBody>
           <DetailsMusicAudio
