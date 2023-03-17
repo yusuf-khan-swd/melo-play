@@ -60,9 +60,11 @@ export const ArtistName = styled.li`
 `;
 
 export const ActionContainer = styled.div`
+  max-width: 380px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 
+  margin-top: 10px;
   @media (max-width: 760px) {
     margin-top: 15px;
   }
