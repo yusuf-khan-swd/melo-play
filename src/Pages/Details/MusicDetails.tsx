@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
+import { MdPlaylistAdd, MdPlaylistAddCheck } from "react-icons/md";
 import { useLocation, useParams } from "react-router-dom";
 import { useMusics } from "../../context/MusicProvider";
 import { MainBodyContainer } from "../../styles";
@@ -31,6 +32,7 @@ import {
   SpinnerBackground,
   SpinnerScreenCenter,
 } from "../../styles/SpinnerStyles";
+import { PlayListIcon } from "../../styles/TracksStyles";
 
 interface Images {
   [index: number]: { url: string };
@@ -51,7 +53,7 @@ interface TrackProps {
 }
 
 const MusicDetails = () => {
-  const { options } = useMusics();
+  const { options, setFavoriteMusics, setPlaylistMusics } = useMusics();
   const { id } = useParams();
   const { pathname } = useLocation();
   const [isDataLoading, setIsDataLoading] = useState(false);
@@ -60,9 +62,11 @@ const MusicDetails = () => {
   const [recommendAlbums, setRecommendAlbums] = useState([]);
   const [trackName, setTrackName] = useState("");
   const [addedToFavorite, setAddedToFavorite] = useState(false);
+  const [addedToPlaylist, setAddedPlaylist] = useState(false);
+
   const artists = track?.artists;
-  const trackImageUrl = track?.album?.images[1]?.url;
-  const trackTitle = track?.name;
+  const trackImageUrl = track ? track?.album?.images[1]?.url : "";
+  const trackTitle = track ? track?.name : "";
 
   useEffect(() => {
     if (pathname.includes("track")) {
@@ -121,6 +125,18 @@ const MusicDetails = () => {
     };
 
     setAddedToFavorite((prev) => !prev);
+
+    setFavoriteMusics((prev: []) => [...prev, favoriteItem]);
+  };
+
+  const addToPlaylist = (imageUrl: string, title: string) => {
+    const playlistItem = {
+      imageUrl,
+      title,
+    };
+
+    setAddedPlaylist(!addedToPlaylist);
+    setPlaylistMusics((prev: []) => [...prev, playlistItem]);
   };
 
   return (
@@ -143,13 +159,26 @@ const MusicDetails = () => {
                 </ArtistsContainer>
               </ArtistAndMusicNameContainer>
               <ActionContainer>
-                <FavoriteIconDetails onClick={() => addToFavorite("", "")}>
+                <FavoriteIconDetails
+                  onClick={() => addToFavorite(trackImageUrl, trackTitle)}
+                >
                   {!addedToFavorite ? (
-                    <AiOutlineHeart size={35} fill="white" />
+                    <AiOutlineHeart size={35} fill="gray" />
                   ) : (
                     <AiFillHeart size={35} fill="gray" />
                   )}
                 </FavoriteIconDetails>
+                {
+                  <PlayListIcon
+                    onClick={() => addToPlaylist(trackImageUrl, trackTitle)}
+                  >
+                    {!addedToPlaylist ? (
+                      <MdPlaylistAdd size={40} fill="gray" />
+                    ) : (
+                      <MdPlaylistAddCheck size={40} fill="gray" />
+                    )}
+                  </PlayListIcon>
+                }
               </ActionContainer>
             </DetailsCardContentBody>
           </DetailsCardBody>

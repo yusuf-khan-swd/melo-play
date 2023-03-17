@@ -59,7 +59,14 @@ export const ArtistName = styled.li`
   margin: 5px 0;
 `;
 
-export const ActionContainer = styled.div``;
+export const ActionContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  @media (max-width: 760px) {
+    margin-top: 15px;
+  }
+`;
 
 export const FavoriteIconDetails = styled.div`
   cursor: pointer;
